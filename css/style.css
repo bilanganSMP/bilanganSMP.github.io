@@ -1,0 +1,621 @@
+
+    .row.content {height: 550px}
+    
+    
+    .sidenav {
+      padding-top: 20px;
+      background-color: #dbd9d9;
+      height: 570px;
+	  width: 300px;
+	  overflow-x: hidden;
+	  
+    }
+    .sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #3c9d9b;
+}
+
+.active {
+  background-color: #8b2f97;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+  transition: 0.5s;
+  outline: none;
+  border:none;
+}
+
+
+    
+    footer {
+      background-color: #8b2f97;
+      color: black;
+      padding: 15px;
+    }
+    
+    
+    @media screen and (max-width: 767px) {
+      
+      .row.content {height:auto;} 
+    }
+	
+	.header {
+  background-color: #8b2f97;
+  
+  overflow: hidden;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Lemonada', cursive;
+}
+
+.header-right {
+  float: right;
+  padding-top: 30px
+}
+
+.navi-right {
+  float: right;
+}
+.contentt {
+	  padding-top: 20px;
+    background-color: #ffffff;
+    height: 104%;
+	  width: 300px;
+    overflow-x: hidden;
+    text-align: justify;
+    border-color: #8b2f97;
+    border-style: double;
+    font-size: 16px;
+}
+
+
+
+#rcorners1 {
+  border-radius: 50px;
+  background-color: rgba(178, 82, 222, 0.795);
+  padding: 27px; 
+  padding-left: 20px;
+  padding-top: 72px;
+  width: 800px;
+  height: 320px; 
+  font-size: 20px;
+  font-family: 'Abel', sans-serif;
+  margin: auto;
+  text-align: justify;
+  color: white;
+}
+
+
+
+.hilang{
+  display: none;
+}
+
+.tombol{
+  float: right;
+  
+}
+
+.hilang1{
+  display: none;
+}
+
+.judul{
+  background-color: #8b2f97;
+  width: max-content;
+  border-radius: 3px;
+  font-size: 14pt;
+  font-family: Alegreya;
+  color: white;
+  
+  padding: 10px;
+}
+
+.benar {
+  text-align: center;
+  border: solid 2px green !important;
+}
+
+.salah{
+border: solid 2px red !important;
+text-align: center;
+}
+
+.biasa{
+  text-align: center;
+  border: none;
+  border-bottom: 3px solid blueviolet;
+  color: black;
+  
+}
+
+.biasa1{
+  text-align: center;
+  border: none;
+  border-bottom: 3px solid blueviolet;
+  color: black;
+  font-size: 18px;
+}
+
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+.hilanglat{
+  display: none;
+}
+
+.hilanglat1{
+  display: none;
+}
+
+.hasil{
+  font-size: 30px;
+  text-align: center;
+}
+
+.bilabetul{
+  color: #007944;
+  
+}
+
+.bilasalah{
+  color: #c70d3a;
+}
+
+.bilahilang{
+  display: none;
+}
+
+.uklat{
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 20px;
+
+}
+
+
+.nxtBtn {
+  background-color: #8b2f97; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btnprasyarat{
+  background-color: #8b2f97;
+  width: 80px;
+  border-radius: 3px;
+  font-size: 12pt;
+  font-family: Alegreya;
+  color: white;
+  
+  padding: 2px;
+}
+
+.btntujuan{
+  background-color: #8b2f97;
+  width: fit-content;
+  border-radius: 3px;
+  font-size: 12pt;
+  font-family: Alegreya;
+  color: white;
+  
+  padding: 2px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #8b2f97;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.toggle{
+  --uiToggleSize: var(--toggleSize, 20px);
+  --uiToggleIndent: var(--toggleIndent, .4em);
+  --uiToggleBorderWidth: var(--toggleBorderWidth, 2px);
+  --uiToggleColor: var(--toggleColor, #000);
+  --uiToggleDisabledColor: var(--toggleDisabledColor, #868e96);
+  --uiToggleBgColor: var(--toggleBgColor, #fff);
+  --uiToggleArrowWidth: var(--toggleArrowWidth, 2px);
+  --uiToggleArrowColor: var(--toggleArrowColor, #fff);
+
+  display: inline-block;
+  position: relative;
+}
+
+.toggle__input{
+  position: absolute;
+  left: -99999px;
+}
+
+.toggle__label{
+  display: inline-flex;
+  min-height: var(--uiToggleSize);
+  padding-left: calc(var(--uiToggleSize) + var(--uiToggleIndent));
+}
+
+.toggle__input:not(:disabled) ~ .toggle__label{
+  cursor: pointer;
+}
+
+.toggle__label::before, 
+.toggle__label::after{
+  content: "";
+  box-sizing: border-box;  
+  width: 1em;
+  height: 1em;
+  font-size: var(--uiToggleSize);
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.toggle__label:before{
+  border: var(--uiToggleBorderWidth) solid var(--uiToggleColor);
+  z-index: 2;
+}
+
+.toggle__input:disabled ~ .toggle__label::before{
+  border-color: var(--uiToggleDisabledColor);
+}
+
+.toggle__input:focus ~ .toggle__label::before{
+  box-shadow: 0 0 0 2px var(--uiToggleBgColor), 0 0 0px 4px var(--uiToggleColor);
+}
+
+.toggle__input:not(:disabled):checked:focus ~ .toggle__label::after{
+  box-shadow: 0 0 0 2px var(--uiToggleBgColor), 0 0 0px 4px var(--uiToggleColor);
+}
+
+.toggle__input:not(:disabled) ~ .toggle__label::after{
+  background-color: var(--uiToggleColor);
+  opacity: 0;
+}
+
+.toggle__input:not(:disabled):checked ~ .toggle__label::after{
+  opacity: 1;
+}
+
+.toggle__text{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/*
+The arrow size and position depends from sizes of square because I needed an arrow correct positioning from the top left corner of the element toggle
+*/
+
+.toggle__text::before{
+  content: "";
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  font-size: var(--uiToggleSize);
+
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: var(--uiToggleArrowColor);
+
+  position: absolute;
+  top: .5428em;
+  left: .2em;
+  z-index: 3;
+
+  transform-origin: left top;
+  transform: rotate(-40deg) skew(10deg);
+}
+
+.toggle__input:not(:disabled):checked ~ .toggle__label .toggle__text::before{
+  width: .5em;
+  height: .25em;
+  border-left-width: var(--uiToggleArrowWidth);
+  border-bottom-width: var(--uiToggleArrowWidth);
+  will-change: width, height;
+  transition: width .1s ease-out .2s, height .2s ease-out;
+}
+
+/*
+=====
+LEVEL 2. PRESENTATION STYLES
+=====
+*/
+
+/* 
+The demo skin
+*/
+
+.toggle__input:disabled ~ .toggle__label{
+  opacity: .24;
+  cursor: not-allowed;
+}
+
+.toggle__label::before, 
+.toggle__label::after{
+  border-radius: 2px;
+}
+
+/* 
+The animation of switching states
+*/
+
+.toggle__input:not(:disabled) ~ .toggle__label::before,
+.toggle__input:not(:disabled) ~ .toggle__label::after{
+  opacity: 1;
+  transform-origin: center center;
+  will-change: transform;
+  transition: transform .2s ease-out;
+}
+
+.toggle__input:not(:disabled) ~ .toggle__label::before{
+  transform: rotateY(0deg);
+  transition-delay: .2s;
+}
+
+.toggle__input:not(:disabled) ~ .toggle__label::after{
+  transform: rotateY(90deg);
+}
+
+.toggle__input:not(:disabled):checked ~ .toggle__label::before{
+  transform: rotateY(-90deg);
+  transition-delay: 0s;
+}
+
+.toggle__input:not(:disabled):checked ~ .toggle__label::after{
+  transform: rotateY(0deg);
+  transition-delay: .2s;
+}
+
+.toggle__text::before{
+  opacity: 0;
+}
+
+.toggle__input:not(:disabled):checked ~ .toggle__label .toggle__text::before{
+  opacity: 1;
+  transition: opacity .1s ease-out .3s, width .1s ease-out .5s, height .2s ease-out .3s;
+}
+
+/*
+=====
+LEVEL 3. SETTINGS
+=====
+*/
+
+.toggle{
+  --toggleColor: #690e90;
+  --toggleBgColor: #9b59b6;
+  --toggleSize: 20px;
+}
+
+
+
+
+.page{
+  margin: auto;  
+  padding-left: 10px;
+  padding-right: 10px;
+  order: 1;
+}
+
+.page__toggle{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.page__toggle:nth-child(n+2){
+  margin-top: 10px;
+}
+
+.tombolsoal{
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #3e206d;
+  font-family: 'Saira Condensed', sans-serif;
+  height: 40px;
+}
+
+.tombolsoal1{
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #3e206d;
+  font-family: 'Saira Condensed', sans-serif;
+  height: 40px;
+  width: 110px
+}
+
+.gasanlogobujursalah {
+  width: 40px; height: 40px; position: relative;
+}
+
+.gasansoal{
+  background-color: #cca1db;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  color: #666;
+}
+
+.andak {
+  width: 100%;
+  
+  display: relative;
+  margin-top: 0px;
+}
+
+.andakjawaban {
+  width: 100%;
+display: relative;
+margin-top: 40px;
+height: 58px;
+border: solid;
+padding: 13px;
+}
+.keandakaan{
+  min-width: 13%;
+  border: solid 2px black;
+  height: 30px;
+  display: inline-block;
+  margin-left: -2px;
+  text-align: center;
+  padding: 0px !important;
+}
+
+.keandakaan .keandakaansoal{
+  margin-left: 14px !important;
+  height: 26px !important;
+  width: 30px !important;
+  border: none !important;
+  padding: 0px;
+}
+.keandakaansoal{
+
+  width: 13%;
+  
+  height: 26px;
+  display: absolute;
+  display: inline-block;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.keandakaansoal:hover{
+  cursor: pointer;
+}
+
+.hh{
+  
+  margin-left: -18px;
+
+}
+
+.tulisan{
+  font-size: 17px;
+}
+
+
+.clear{
+  clear:both;
+}
+
+
+
+
+
+@media (max-width : 992px) {
+  .col-sm-2 {
+    width: 100% !important;
+  }
+  .col-sm-5{
+    width: 100% !important;
+  }
+  .col-sm-10{
+    width: 100% !important;
+  }
+
+  .foto1{
+    width: 100% !important;
+  }
+
+  #mauu{
+    width: 100% !important;
+  }
+
+  #scratch{
+    width: 100% !important;
+  }
+
+  #munkepanjangan{
+    width: 100% !important;
+  }
+}
+

@@ -1,0 +1,107 @@
+[{
+    "soal0": {
+        "soal": "Manakah di antara bilangan berikut yang merupakan bilangan terkecil? ",
+        "a": "1",
+        "b": "-5",
+        "c": "6",
+        "d": "-1",
+        "benar": "b",
+        "nih": "-5"
+    }
+}, {
+    "soal1": {
+        "soal": "Diketahui dua buah bilangan bulat positif A dan B. diketahui, bilangan A tersusun atas 3 angka, sedangkan bilangan B tersusun atas 4 angka. Pernyataan di bawah ini yang benar adalah...",
+        "a": "A ≥ B",
+        "b": "A > B",
+        "c": "A < B",
+        "d": "tidak ada yang benar",
+        "benar": "c",
+        "nih": "A < B"
+    }
+
+}, {
+    "soal2": {
+        "soal": "X merupakan bilangan bulat positif yang terdiri dari 3 angka. Sedangkan Y merupakan bilangan bulat negatif yang juga terdiri dari 3 buah angka. Jika kita membandingkan kedua bilangan bulat tersebut, pernyataan di bawah ini yang benar adalah...",
+        "a": "X > Y",
+        "b": "X < Y",
+        "c": "X = Y",
+        "d": "Y ≥ X",
+        "benar": "a",
+        "nih": "X > Y"
+    }
+}, {
+    "soal3": {
+        "soal": "Bilangan C dan D sama-sama tersusun atas 3 buah angka yaitu sebagai berikut: Bilangan C = ab2 Bilangan D = ab9 Jika setiap huruf dalam bilangan diatas mewakili sebuah angka, maka bilangan yang paling kecil adalah...",
+        "a": "C > D",
+        "b": "C < D",
+        "c": "C = D",
+        "d": "C ≥ D",
+        "benar": "a",
+        "nih": "C > D"
+    }
+}, {
+    "soal4": {
+        "soal": "Perhatikan dua buah bilangan berikut: M = 5abcd N = 8cde Jika setiap huruf pada bilangan diatas mewakili sebuah angka, maka diantara option di bawah ini yang benar adalah...",
+        "a": "M > N",
+        "b": "M < N",
+        "c": "M = N",
+        "d": "M ≤ N",
+        "benar": "a",
+        "nih": "M > N"
+    }
+}, {
+    "soal5": {
+        "soal": "Diketahui bilangan bulat positif K dan bilangan bulat negatif L. Bilangan K tersusun dari 4 angka, sedangkan bilangan L tersusun dari 5 angka., maka diantara option di bawah ini yang benar adalah...",
+        "a": "K > L",
+        "b": "K < L",
+        "c": "K = L",
+        "d": "K ≤ L",
+        "benar": "a",
+        "nih": "K > L"
+    }
+}, {
+    "soal6": {
+        "soal": "Suatu saat suhu di kota Tokyo 6°C dibawah nol, sedangkan suhu di kota banjarmasin 25°C di atas nol, penulisan suhu kedua kota tersebut berturut turut adalah…..",
+        "a": "-6°C dan -25°C",
+        "b": "-6°C dan 25°C",
+        "c": "6°C dan -25°C",
+        "d": "6°C dan 25°C",
+        "benar": "b",
+        "nih": "-6°C dan 25°C"	
+
+    }
+}, {
+    "soal7": {
+        "soal": "Perhatikan urutan Bilangan-bilangan bulat berikut. Urutan Bilangan dari terkecil yang benar adalah….",
+        "a": "4323, 3231, -2892, -41237",
+        "b": "-3382, -2313, 2232, 2167",
+        "c": "3222, 3322, -2222, 4431",
+        "d": "-5423,-3232,4222,5555",
+        "benar": "b",
+        "nih": "-3382, -2313, 2232, 2167"	
+        
+    }
+}, {
+    "soal8": {
+        "soal": "Diketahui suhu udara di kota A -11°C. suhu dikota B adalah 15°C. suhu dikota C adalah  -24°C. suhu dikota D adalah 23°C. urutan kota dari yang paling dingin adalah…",
+        "a": "Kota A-B-D-C",
+        "b": "Kota C-A-B-D",
+        "c": "Kota C-B-D-A",
+        "d": "Kota C-D-B-A",
+        "benar": "b",
+        "nih": "Kota C-A-B-D"
+        
+        
+    }
+}, {
+    "soal9": {
+        "soal": "Bilangan dibawah ini yang terletak diantara -32 dan 58 adalah…",
+        "a": "-33",
+        "b": "90",
+        "c": "50",
+        "d": "-50",
+        "benar": "c",
+        "nih": "50"
+
+    }
+}]
