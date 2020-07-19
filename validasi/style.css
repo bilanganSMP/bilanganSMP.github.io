@@ -634,7 +634,9 @@ font-family: 'Saira Condensed', sans-serif;
   .col-sm-10{
     width: 100% !important;
   }
-
+  .col-sm-12{
+    width: 100% !important;
+  }
   .col-sm-7{
     width: 100% !important;
   }

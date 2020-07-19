@@ -60,4 +60,24 @@ body {
   }
 
 
-  
+  @media (max-width : 992px) {
+
+    .kotak{
+      width: 100% !important;
+    }
+    #mauu{
+      width: 100% !important;
+    }
+
+    body{
+      width: 100% !important;
+    }
+    #rcorners1{
+      width: 100% !important;
+      height: 100% !important;
+    }
+    #rcorners2{
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }

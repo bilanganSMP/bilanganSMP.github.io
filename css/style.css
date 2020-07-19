@@ -634,7 +634,13 @@ font-family: 'Saira Condensed', sans-serif;
   .col-sm-10{
     width: 100% !important;
   }
+#skorr{
+  width: 100% !important;
+}
 
+#hasiljawaban{
+  width: 100% !important;
+}
   .col-sm-7{
     width: 100% !important;
   }
@@ -647,6 +653,7 @@ font-family: 'Saira Condensed', sans-serif;
     width: 100% !important;
   }
 
+
   #mauu{
     width: 100% !important;
   }
@@ -657,6 +664,15 @@ font-family: 'Saira Condensed', sans-serif;
 
   #munkepanjangan{
     width: 100% !important;
+  }
+
+  #rcorners1{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  #rcorners2{
+    width: 100% !important;
+    height: 100% !important;
   }
 }
 
