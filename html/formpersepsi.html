@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Bilangan
+        
+        </title>
+        <link rel="icon" type="image/png" href="../logo/ff.png">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="css/star-rating.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  
+</head>
+<body>
+<div class="header">
+  <a href="../index.html"><img src="../logo/fff.png" alt="Home" style="width:200px;height:90px;border:0;"></a>
+  <div class="as">
+    <p>Form Persepsi Siswa tentang Aplikasi</p>
+  </div>
+  
+</div>
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-12 text-center contentt">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>kalimat</th>
+                    <th>simbol</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Bagaimana tampilan aplikasi ini</td>
+                    <td><input id="rating-input" type="text" title=""/></td>
+                  </tr>
+                  <tr>
+                    <td>bagaimana soal di aplikasi ini</td>
+                    <td>a < b</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/star-rating.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript">
+ $(document).ready(function(){
+  var $inp = $('#rating-input');
+  
+  
+   
+  $inp.rating({
+                min: 0,
+                max: 5,
+                step: 1,
+                size: 'sm',
+                showClear: false
+            });
+  $inp.on('rating.change', function () {
+   alert('Nilai rating : '+$('#rating-input').val());
+  });
+ });
+</script>
+</body>

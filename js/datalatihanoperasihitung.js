@@ -1,9 +1,8 @@
 // mengambil data dan menampilkanya
 
-
 let dat = new XMLHttpRequest();
 dat.onreadystatechange = function () {
-console.log(namavariabel);
+
     cek = [];
     jwbs = [];
     hasilakhir = 0;
@@ -288,7 +287,7 @@ console.log(namavariabel);
                     }
 
                 }
-               
+                console.log(hasilakhir);
                 if (hasilakhir<69){
                     document.getElementById("emot1").src = "../logo/sad.png";   
                 }
@@ -299,11 +298,10 @@ console.log(namavariabel);
 				kitahasil1.className = kitahasil1.className.replace('contentt', 'hilang');
 				muncul.className = muncul.className.replace('hilang', 'contentt');
                 document.getElementById("skor").innerHTML = "Skor Anda Adalah : "+hasilakhir+"";
-                createTask(namavariabel,kelasvariabel,hasilakhir);
                 let skornya = document.querySelector('.skor');
                 skornya.innerText = hasilakhir;
                 
-
+                
 
 
             } else {
@@ -312,7 +310,7 @@ console.log(namavariabel);
 
 
         });
- 
+
 
         // ---------------------------------
         // nav_soal diklik
@@ -339,72 +337,5 @@ console.log(namavariabel);
 }
 
 
-dat.open('GET', 'latihan1.json', true);
+dat.open('GET', 'latihan2.json', true);
 dat.send();
-
-
-var namavariabel;
-var kelasvariabel;    
-
-
-window.onload = function(){
-namavariabel = prompt("masukan nama");
-kelasvariabel = prompt("masukan kelas");
-console.log(namavariabel);
-}
-
- // Your web app's Firebase configuration
- var firebaseConfig = {
-    apiKey: "AIzaSyCPusVlafmDrm2ygaGchmOtOtEFTdOrYiM",
-    authDomain: "nilaibilangan.firebaseapp.com",
-    databaseURL: "https://nilaibilangan.firebaseio.com",
-    projectId: "nilaibilangan",
-    storageBucket: "nilaibilangan.appspot.com",
-    messagingSenderId: "215560965842",
-    appId: "1:215560965842:web:4afcc591a1cc058c43a70b"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-
-let kirim = document.getElementById('selesai');
-
-  var d = new Date();
-  var t = d.getTime();
-  var counter = t;
-
-// kirim.addEventListener('click', function (e) {
-    
-//     e.preventDefault();
-   
-//     createTask(namavariabel,kelasvariabel,nilai);
-
-// })
-
-function createTask(namavariabel,kelasvariabel,hasilakhir){
-    console.log(counter);
-    counter+=1;
-    console.log(counter);
-    console.log(hasilakhir);
-    var task ={
-        nama: namavariabel,
-        id:counter,
-        kelas:kelasvariabel,
-        nilai:hasilakhir
-    }
-    let db= firebase.database().ref("tasks/"+counter);
-    db.set(task);
-
-}
-
-function readlah(){
-var task= firebase.database().ref("tasks/");
-task.on("child_added",function(data){
-    var taskvalue = data.val();
-    document.getElementById("namaTR").innerHTML+=`
-    <p> ${taskvalue.nama}</p><br>
-    <p> ${taskvalue.kelas}</p>
-    `
-    
-});
-
-}

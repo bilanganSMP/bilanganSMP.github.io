@@ -28,12 +28,12 @@ function check(){
 function cekjawaban2(){
     var a = document.getElementById("sl2k1");
     var b = document.getElementById("sl2k2");
-    var c = document.getElementById("sl2k3");
+  
     var d = document.getElementById("sl2k1bujur");
     var e = document.getElementById("sl2k1salah");
     
 
-    if(a.value=="-a" && b.value=="+" && c.value=="b"){
+    if(a.value=="2+(-32)" && b.value=="-30"){
         d.className = d.className.replace("hilang","gasanlogobujursalah")
         e.className = e.className.replace("gasanlogobujursalah","hilang")
     }else{
@@ -45,12 +45,11 @@ function cekjawaban2(){
 function cekjawaban1(){
     var a = document.getElementById("sl1k1");
     var b = document.getElementById("sl1k2");
-    var c = document.getElementById("sl1k3");
     var d = document.getElementById("sl1k1bujur");
     var e = document.getElementById("sl1k1salah");
     
 
-    if(a.value=="a" && b.value=="-" && c.value=="b"){
+    if(a.value=="(-23)+27" && b.value=="4"){
         d.className = d.className.replace("hilang","gasanlogobujursalah")
         e.className = e.className.replace("gasanlogobujursalah","hilang")
     }else{
