@@ -1,0 +1,30 @@
+﻿[draggable] {
+    user-select: none;
+}
+
+.column {
+    height: 37px;
+    width: 80px;
+    display: inline-block;
+    border: 2px solid #7e28c5;
+    background-color: #ccc;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 3px rgb(39, 36, 36);
+    text-align: center;
+    cursor: move;
+}
+    .column header {
+        color: #fff;
+        background: radial-gradient(ellipse at center, #a01fc7 0%,#a34ebb 100%);
+        text-shadow: rgb(252, 247, 247) 0 1px;
+        box-shadow: 5px;
+        padding: 5px;
+        border-bottom: 1px solid #ddd;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        pointer-events: none;
+    }
+    .column.over {
+        border: 2px dashed #000;
+    }

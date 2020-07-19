@@ -5,18 +5,8 @@
         Bilangan
         
         </title>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-        <link href="http://cdn.wijmo.com/5.latest/styles/wijmo.min.css" rel="stylesheet" type="text/css" />
-    <script src="http://cdn.wijmo.com/5.latest/controls/wijmo.min.js" type="text/javascript"></script>
-    <script src="http://cdn.wijmo.com/5.latest/controls/wijmo.input.min.js" type="text/javascript"></script>
-    <script src="http://cdn.wijmo.com/5.latest/controls/wijmo.grid.min.js" type="text/javascript"></script>
-    <script src="http://cdn.wijmo.com/5.latest/controls/wijmo.grid.filter.min.js" type="text/javascript"></script>
-    <script src="http://cdn.wijmo.com/5.latest/controls/wijmo.grid.grouppanel.min.js" type="text/javascript"></script>
-    <script src="http://cdn.wijmo.com/5.latest/controls/wijmo.olap.min.js" type="text/javascript"></script>
         <link rel="icon" type="image/png" href="../logo/ff.png">
-
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../mencoba/dragdroptouch-master/demo/app.css">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/botstrap/bootstrap.min.css">
@@ -25,7 +15,7 @@
   <script src="../js/link.js"></script>
   
 </head>
-<body ng-app="app" ng-controller="appCtrl">
+<body>
 <div class="header">
   <a href="../index.html"><img src="../logo/fff.png" alt="Home" style="width:200px;height:90px;border:0;"></a>
   <div class="header-right">
@@ -265,19 +255,29 @@
       <br>urutkan lah bilangan dibawah ini dari yang terkecil sampai ke terbesar <br>
       <div style="font-size: 12px;">Petunjuk : tarik bilangan dibawah ini dan taruh kedalam kotak yang kosong<br><br></div>
   </div>
-  <div id="columns">
-    <div id="A" class="column" draggable="true"><header>43</header></div><
-    <div id="B" class="column" draggable="true"><header>-7</header></div><
-    <div id="C" class="column" draggable="true"><header>-31</header></div><
-    <div id="D" class="column" draggable="true"><header>5</header></div><
-    <div id="E" class="column" draggable="true"><header>8</header></div>
-</div>
-
     
+    <div class="andak text-center" style="font-size: 20px;" >
+      <div class="keandakaan hh"></div><
+      <div class="keandakaan"></div><
+      <div class="keandakaan"></div><
+      <div class="keandakaan"></div>
+
+    </div>
+    <div class="clear"></div>
+    
+    <div class="andakjawaban text-center" >
+      <div class="keandakaansoal hh" draggable="true" value="-34">-34</div>
+      <div class="keandakaansoal" draggable="true" value="324">324</div>
+      <div class="keandakaansoal" draggable="true" value="23">23</div>
+      <div class="keandakaansoal"draggable="true" value="-45">-45</div>
+
+      
+    </div>
+    <div class="clear"></div>
     <br><br>
     <div class="text-center">
       <button class="tombolsoal" onclick="pre1()">Sebelumnya</button>
-      <button  class="tombolsoal" onclick="cekkkk()">cek</button>
+      <button  class="tombolsoal" onclick="cekicek()">cek</button>
       <button class="tombolsoal"><a style="text-decoration: none; color: white;" href="materi1.html">Ulang</a></button>
     </div>
     <div class="text-center" id="ja"></div>
@@ -297,16 +297,13 @@
 <footer class="container-fluid text-center">
   <p>@rizaldi aprilian</p>
 </footer>
-<script src="http://cdn.wijmo.com/5.latest/interop/angular/wijmo.angular.min.js" type="text/javascript"></script>
-<script src="../mencoba/dragdroptouch-master/DragDropTouch.js"></script>
-<script src="../mencoba/dragdroptouch-master/demo/app.js"></script>
 <script src="../js/test.js"></script>
 
 <script src="../js/mencobai.js"></script>
 <script src="../js/cekcoba.js"></script>
 <script src="../js/shuffle.js"></script>
-
-
+<script src="../mencoba/dragdroptouch-master/DragDropTouch.js"></script>
+<script src="../js/soaldrag.js"></script>
 
 </body>
 </html>
