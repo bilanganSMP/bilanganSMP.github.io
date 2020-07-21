@@ -28,19 +28,19 @@
   
 </div>
 
-<div class="sidenav col-sm-2" style="height: 620px;">
+<div class="sidenav col-sm-2 navsamping">
   <button class="dropdown-btn">mengenal bilangan bulat</button>
   <div class="dropdown-container">
-    <a href="materi1.html">Mengenal dan Membandingkan Bilangan Bulat</a>
+    <a href="#materi1.html">Mengenal dan Membandingkan Bilangan Bulat</a>
     <a href="latihan1.html">kuis</a>
     
   </div>
 
   <button class="dropdown-btn">Penjumlahan Dan Pengurangan bilangan bulat</button>
     <div class="dropdown-container">
-      <a href="materi2.html">Penjumlahan bilangan bulat</a>
-      <a href="materi3.html">Pengurangan bilangan bulat </a>      
-      <a href="latihan2.html">kuis</a>
+      <a href="#materi2.html">Penjumlahan bilangan bulat</a>
+      <a href="#materi3.html">Pengurangan bilangan bulat </a>      
+      <a href="#latihan2.html">kuis</a>
       
     </div>
 
@@ -97,18 +97,30 @@
 <div class="container-fluid">    
   <div class="row content">
    <div class="col-sm-10 text-center" style="height: 50px; border-style: double; border-color: #8b2f97;">
-    <a href="materi2.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
-    <a href="materi1.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
+    <a href="#materi2.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
+    <a href="#materi1.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
     
-   
-   <div class="col-sm-7 contentt kiri" id="kiri" style="padding: 30px;">
+   </div>
+   <div class="col-sm-10 contentt" id="tengah">
+     <div class="tengah">
+    
+     <div class="inputbio">
+      Nama  =<input placeholder="masukan nama" class="inputtbio" id="nama" type="text"><br><br>
+     Kelas  =<input placeholder="masukan kelas Contoh: 7a" class="inputtbio" id="kelas" type="text"><br><br>
+    Sekolah =<input placeholder="masukan sekolah" class="inputtbio" id="sekolah" type="text"><br>
+    
+     </div>
+     <div class="bawahkuis"><button class="tombolsoal" onclick="mulaiaja()">Mulai</button></div>
+    </div>
+   </div>
+   <div class="col-sm-7 hilang kiri" id="kiri" style="padding: 30px;">
     
      
 
 
   
   </div>
-  <div class="col-sm-3 contentt" id="kanan" style="padding: 30px;">
+  <div class="col-sm-3 hilang" id="kanan" style="padding: 30px;">
     <div class="bg_nav">
       <div class="bg_full">
           <p class="text">Nomor Soal</p>
@@ -157,13 +169,14 @@
   
 
 </div>
-<div id="hasiljawaban" class="hilang col-sm-10 text-center" style="padding-left: 287px;">
-  <div id="skorr" style="border: 5px solid rgb(165, 21, 165); width: 500px; height: 500px; font-size: 36px; font-family: 'Lemonada', cursive;">
+<div id="hasiljawaban" class="hilang col-sm-10 text-center">
+  <div id="skorr" style="border: 5px solid rgb(165, 21, 165); width: 1099px; height: 500px; font-size: 36px; font-family: 'Lemonada', cursive;">
     <br><br><img id="emot1" src="../logo/happy.png" style="width: 200px; height: 200px;">
     <div id="skor">
     
     </div>
-    <button class="tombolsoal1"><a href="latihan1.html" style="text-decoration: none; color: white;">Ulang</a></button>  
+    <a href="materi2.html" style="text-decoration: none; color: white;"><button id="selesai" class="tombolsoal1">Selesai</button></a>
+      
   </div>
 </div>
   </div>
@@ -179,11 +192,14 @@
 <footer class="container-fluid text-center">
   <p>@rizaldi aprilian</p>
 </footer>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
 <script src="../js/test.js"></script>
 
 <script src="../js/mencobai.js"></script>
 <script src="../js/cekcoba.js"></script>
 <script src="../js/shuffle.js"></script>
-<script src="../js/datalatihanoperasihitung.js"></script>
+<script src="../js/javascript.js"></script>
+    <script src="../js/datalatihanoperasihitung.js"></script>
 </body>
 </html>

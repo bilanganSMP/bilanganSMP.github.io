@@ -29,6 +29,29 @@ var jsonData = [
         "penjelasan" : "jawaban kamu salah<br>penjelasan = (-43 - 21) - 123 = -64 - 123 = -187"
     },
 
+    {
+      "soal" : "-43 - (-21)",  
+      "jawaban" : "-22",
+      "penjelasan" : "jawaban kamu salah<br>penjelasan = -43 - (-21) = -43 + 21"
+  },
+
+  {
+    "soal" : "-20 - (-32) + 52",  
+    "jawaban" : "64",
+    "penjelasan" : "jawaban kamu salah<br>penjelasan = -20 + 32 + 52 = 64"
+},
+
+{
+  "soal" : "43 - 29 + 43",  
+  "jawaban" : "57",
+  "penjelasan" : "jawaban kamu salah<br>penjelasan = (43 - 29) + 43 = 14 + 43 = 57"
+},
+
+{
+  "soal" : "-43 - 29 - 43",  
+  "jawaban" : "-115",
+  "penjelasan" : "jawaban kamu salah<br>penjelasan = ((-43) - 29) - 43 = -72 - 43 = -115"
+},
     
 ]
 

@@ -42,7 +42,7 @@ function createTask(nama,kelas){
 
 function readlah(){
 var task= firebase.database().ref("nilai/");
-task.orderByChild("waktu").on("child_added",function(data){
+task.orderByChild("kelas").on("child_added",function(data){
     var taskvalue = data.val();
     document.getElementById("namaTR").innerHTML+=`
     <tr>
