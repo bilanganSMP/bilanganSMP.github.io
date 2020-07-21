@@ -40,11 +40,11 @@
     
 <div class="container-fluid">    
   <div class="row content">
-    <div class="sidenav col-sm-2" style="height: 620px;">
+    <div class="sidenav col-sm-2 navsamping">
       <button class="dropdown-btn">mengenal bilangan bulat</button>
       <div class="dropdown-container">
         <a href="materi1.html">Mengenal dan Membandingkan Bilangan Bulat</a>
-        <a href="latihan1.html">kuis</a>
+        <a href="#latihan1.html">kuis</a>
         
       </div>
   
@@ -107,8 +107,8 @@
   
   </div>
    <div class="col-sm-10 text-center" style="height: 50px; border-style: double; border-color: #8b2f97;">
-    <a href="latihan1.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
-    <a href="apersepsi.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
+    <a href="#latihan1.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
+    <a href="#apersepsi.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
     
    </div>
    <div class="col-sm-5 contentt" id="klik1">
@@ -195,7 +195,7 @@
     <div class="judul"><img src="../logo/tanya.png" style="width: 30px; height: 30px;"> Pertanyaan</div>
     <br><div class="gasansoal tulisan" id="a1">
       <div style="padding-bottom: 5px;">
-        1 dari 3
+        1 dari 4
         <br>apakah kumpulan bilangan dibawah ini adalah bilangan cacah?
     </div>
     <div class="text-center" style="font-size: 20px; padding-bottom: 17px;">
@@ -225,11 +225,12 @@
     <br>
     <div class="hilang tulisan" id="a2">
       <div style="padding-bottom: 5px;">
-        2 dari 3
+        2 dari 4
         <br>Isilah soal ini dengan Simbol-simbol perbandingan bilangan ("<",">")<br>
+        <div style="font-size: 12px;">petunjuk: klik tombol buat untuk mengganti soal dan klik tombol cek untuk memeriksa jawaban</div>
     </div>
       
-      <div style="padding-left: 200px; padding-top: 10px;"><table>
+      <div class="soalnomor2"><table>
         <tr>
             <td id="bil1" style="font-size: 24px;">
                 
@@ -241,54 +242,98 @@
                 
             </td>
         </tr>
-    </table><br>
-  </div>
-    <div style="padding: -100px;" id="bujur" class="bilahilang">*Yup... jawaban kamu betul</div>
-    <div style="padding: -100px;" id="kadabujur" class="bilahilang">*Jawaban kamu masih salah.. coba klik tombol buat untuk mencoba lagi ya </div>
-    <br>
-      <div class="text-center">
-      <button class="tombolsoal" onclick="pre()">Sebelumnya</button>
-      <button type="button" onclick="a()" class="tombolsoal">buat</button>
-      <button type="button" onclick="check()" class="tombolsoal">cek</button>
+          </table><br>
+        </div>
+        <div style="padding: -100px;" id="bujur" class="bilahilang">*Yup... jawaban kamu betul</div>
+        <div style="padding: -100px;" id="kadabujur" class="bilahilang">*Jawaban kamu masih salah.. coba klik tombol buat untuk mencoba lagi ya </div>
+        <br>
+         <div class="text-center">
+          <button class="tombolsoal" onclick="pre()">Sebelumnya</button>
+        <button type="button" onclick="a()" class="tombolsoal">buat</button>
+        <button type="button" onclick="check()" class="tombolsoal">cek</button>
       
-      <button class="tombolsoal" onclick="next1()">Selanjutnya</button>
+       <button class="tombolsoal" onclick="next1()">Selanjutnya</button>
       
-    </div>
+      </div>
     
     
     </div>
 
     <div class="hilang tulisan" id="a3">
-      
-    <div style="padding-bottom: 5px;" style="text-align: left;">
-      3 dari 3
-      <br>urutkan lah bilangan dibawah ini dari yang terkecil sampai ke terbesar <br>
-      <div style="font-size: 12px;">Petunjuk : tarik bilangan dibawah ini dan taruh kedalam kotak yang kosong<br><br></div>
-  </div>
-  <div id="columns">
-    <div id="A" class="column" draggable="true"><header>43</header></div><
-    <div id="B" class="column" draggable="true"><header>-7</header></div><
-    <div id="C" class="column" draggable="true"><header>-31</header></div><
-    <div id="D" class="column" draggable="true"><header>5</header></div><
-    <div id="E" class="column" draggable="true"><header>8</header></div>
-</div>
-
-    
-    <br><br>
-    <div class="text-center">
-      <button class="tombolsoal" onclick="pre1()">Sebelumnya</button>
-      <button  class="tombolsoal" onclick="cekkkk()">cek</button>
-      <button class="tombolsoal"><a style="text-decoration: none; color: white;" href="materi1.html">Ulang</a></button>
+      <div style="padding-bottom: 5px;">
+        3 dari 4
+        <br>Perhatikan dua buah bilangan berikut:<br> M = 1abcde<br> N = 8abc<br> Jika setiap huruf pada bilangan diatas mewakili sebuah angka, maka diantara option di bawah ini yang benar adalah...
     </div>
-    <div class="text-center" id="ja"></div>
+    
+    <div style="padding-left: 30px;">
+      <form action="#">
+        <p>
+          <input type="radio" id="j31" name="radio-group">
+          <label for="j31">M > N</label>
+        </p>
+        <p>
+          <input type="radio" id="j32" name="radio-group">
+          <label for="j32">M < N</label>
+        </p>
+        
+      </form>
+    </div>
+     
+  
+      
+      <br><br>
+      <div class="text-center">
+        <button class="tombolsoal" onclick="pre1()">Sebelumnya</button>
+        <button  class="tombolsoal" onclick="cekk()">cek</button>
+        <button  class="tombolsoal" onclick="next2()">Selanjutnya</button>
+        
+      </div>
+      <div  id="jaa"></div>
+
+
+    </div>
+      
+    <div class="hilang tulisan" id="a4">
+
+      <div style="padding-bottom: 5px;" style="text-align: left;">
+        4 dari 4
+        <br>urutkan lah bilangan dibawah ini dari yang terkecil sampai ke terbesar <br>
+        <div style="font-size: 12px;">Petunjuk : tarik bilangan dibawah ini dan pindahkan sehingga urut<br><br></div>
+      </div>
+      <div id="columns">
+        <div id="A" class="column" draggable="true"><header>43</header></div><
+        <div id="B" class="column" draggable="true"><header>-7</header></div><
+        <div id="C" class="column" draggable="true"><header>-31</header></div><
+        <div id="D" class="column" draggable="true"><header>5</header></div><
+        <div id="E" class="column" draggable="true"><header>8</header></div>
       </div>
   
+      
+      <br><br>
+      <div class="text-center">
+        <button class="tombolsoal" onclick="pre2()">Sebelumnya</button>
+        <button  class="tombolsoal" onclick="cekkkk()">cek</button>
+        <button class="tombolsoal"><a style="text-decoration: none; color: white;" href="materi1.html">Ulang</a></button>
+      </div>
+      <div class="text-center" id="ja"></div>
+
+
+    </div>
+      
+  
     
 
   
 
+
+
 </div>
 
+
+
+
+
+</div>
 </div>
  
  

@@ -624,6 +624,42 @@ font-family: 'Saira Condensed', sans-serif;
   border: white solid 2px;
 }
 
+.tengah{
+padding-left: 200px;
+padding-top: 100px;
+}
+
+.inputbio{
+  padding-left: 210px;
+padding-top: 40px;
+border: violet solid 5px;
+padding-bottom: 31px;
+width: 697px;
+font-family: 'Saira Condensed', sans-serif;
+border-bottom: none;
+}
+
+.inputtbio{
+  border: none;
+  border-bottom: 3px solid blueviolet;
+  color: black;
+}
+.bawahkuis{
+  padding-left: 305px;
+     border-left: violet solid 5px;
+     border-bottom: violet solid 5px;
+     width: 697px;
+     border-right: violet solid 5px; padding-bottom: 5px;
+}
+
+.navsamping{
+  height: 620px;
+}
+
+.soalnomor2{
+  padding-left: 200px; padding-top: 10px;
+}
+
 @media (max-width : 992px) {
   .col-sm-2 {
     width: 100% !important;
@@ -673,6 +709,45 @@ font-family: 'Saira Condensed', sans-serif;
   #rcorners2{
     width: 100% !important;
     height: 100% !important;
+  }
+  .column{
+    width: 40px;
+  }
+  #A{
+    width: 40px;
+  }
+  #B{
+    width: 40px;
+  }
+  #C{
+    width: 40px;
+  }
+  #D{
+    width: 40px;
+  }
+  #E{
+    width: 40px;
+  }
+  .tengah {
+    width: 100% !important;
+    padding-left: 0px;
+    padding-top: 0px;
+padding-bottom: 20px;
+  }
+  .inputbio{
+    width: 100% !important;
+    padding-left: 30px;
+  }
+  .bawahkuis{
+    padding-left:155px ;
+    width: 100% !important;
+  }
+  .navsamping{
+    height: 350px;
+  }
+
+  .soalnomor2{
+    padding-left: 130px; padding-top: 10px;
   }
 }
 

@@ -151,3 +151,24 @@ function cekkk(){
     }
 
 }
+
+function cekk(){
+    var a = document.getElementById("j31");
+    var b = document.getElementById("j32");
+    
+
+    if(a.checked){
+     document.getElementById("jaa").innerHTML = `jawaban kamu tepat.<br> kita misalkan bahwa huruf diatas menjadi angka sembarang maka: <br>
+        M = 123456<br>
+        N = 8123<br>
+        maka bisa kita lihat 123456 lebih besar dari 8123 maka bisa kita tulis 123456 > 8123 artinya M > N        
+     `;
+    }else{
+        document.getElementById("jaa").innerHTML = `jawaban kamu Salah.<br> kita misalkan bahwa huruf diatas menjadi angka sembarang maka: <br>
+        M = 123456<br>
+        N = 8123<br>
+        maka bisa kita lihat 123456 lebih besar dari 8123 maka bisa kita tulis 123456 > 8123 artinya M > N        
+     `;      
+    }
+
+}

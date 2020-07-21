@@ -36,8 +36,8 @@
         "b": "C < D",
         "c": "C = D",
         "d": "C ≥ D",
-        "benar": "a",
-        "nih": "C > D"
+        "benar": "b",
+        "nih": "C < D"
     }
 }, {
     "soal4": {
@@ -74,11 +74,11 @@
     "soal7": {
         "soal": "Perhatikan urutan Bilangan-bilangan bulat berikut. Urutan Bilangan dari terkecil yang benar adalah….",
         "a": "4323, 3231, -2892, -41237",
-        "b": "-3382, -2313, 2232, 2167",
+        "b": "-3382, -2313, 2167, 2232",
         "c": "3222, 3322, -2222, 4431",
-        "d": "-5423,-3232,4222,5555",
+        "d": "-5423,-3232,4222,3555",
         "benar": "b",
-        "nih": "-3382, -2313, 2232, 2167"	
+        "nih": "-3382, -2313, 2167, 2232"	
         
     }
 }, {

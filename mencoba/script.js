@@ -35,20 +35,22 @@ function createTask(nama,kelas){
         id:counter,
         kelas:kelas
     }
-    let db= firebase.database().ref("tasks/"+counter);
+    let db= firebase.database().ref("nilai/"+counter);
     db.set(task);
 
 }
 
 function readlah(){
-var task= firebase.database().ref("tasks/");
-task.on("child_added",function(data){
+var task= firebase.database().ref("nilai/");
+task.orderByChild("kelas").on("child_added",function(data){
     var taskvalue = data.val();
     document.getElementById("namaTR").innerHTML+=`
     <tr>
+    <td>${taskvalue.sekolah}</td>
     <td>${taskvalue.nama}</td>
     <td>${taskvalue.kelas}</td>
     <td>${taskvalue.nilai}</td>
+    <td>${taskvalue.waktu}</td>
     </tr>
     `
     
