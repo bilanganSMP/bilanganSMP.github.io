@@ -294,7 +294,7 @@ console.log(namavariabel);
 
                 }
                
-                if (hasilakhir<69){
+                if (hasilakhir<75){
                     document.getElementById("emot1").src = "../logo/sad.png";   
                 }
 				let kitahasil = document.getElementById('kiri');
