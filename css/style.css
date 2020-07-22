@@ -664,7 +664,9 @@ border-bottom: none;
   padding-left: 100px;
   padding-top: 30px;
 }
-
+.divscratch{
+  padding-left: 215px;
+}
 @media (max-width : 992px) {
   .col-sm-2 {
     width: 100% !important;
@@ -756,6 +758,9 @@ padding-bottom: 20px;
   }
   .tombol1{
     padding-left: 40px;
+  }
+  .divscratch{
+    padding-left: 150px;
   }
 }
 
