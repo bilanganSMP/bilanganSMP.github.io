@@ -294,7 +294,7 @@ console.log(namavariabel);
 
                 }
                
-                if (hasilakhir<69){
+                if (hasilakhir<79){
                     document.getElementById("emot1").src = "../logo/sad.png";   
                 }
 				let kitahasil = document.getElementById('kiri');
@@ -399,7 +399,7 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilai/"+counter);
+    let db= firebase.database().ref("nilairemedial/"+counter);
     db.set(task);
 
 }
