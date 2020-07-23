@@ -96,7 +96,7 @@
 
 }, {
     "soal8": {
-        "soal": "Diketahui a, b, c. anggota Bilangan bulat dengan a<b<c.  pernyataan yang benar adalah…",
+        "soal": "Diketahui a, b, c. anggota Bilangan bulat sembarang dengan a < b < c.  pernyataan yang benar adalah…",
         "a": "a-b > b-c",
         "b": "b-a < -c+a",
         "c": "-b-c < a-b",
