@@ -28,18 +28,24 @@ function check(){
 function cekjawaban2(){
     var a = document.getElementById("sl2k1");
     var b = document.getElementById("sl2k2");
-  
+   var c = document.getElementById("jaw1")
     var d = document.getElementById("sl2k1bujur");
     var e = document.getElementById("sl2k1salah");
-    
+    var hasil = a.value.split(' ').join('');
+    if(a.value=="" && b.value==""){
+        window.alert("kamu belum mengisi jawaban");
 
-    if(a.value=="2+(-32)" && b.value=="-30"){
-        d.className = d.className.replace("hilang","gasanlogobujursalah")
-        e.className = e.className.replace("gasanlogobujursalah","hilang")
     }else{
-        e.className = e.className.replace("hilang","gasanlogobujursalah")
-        d.className = d.className.replace("gasanlogobujursalah","hilang")
+        if(hasil=="2+(-32)" && b.value=="-30"){
+            d.className = d.className.replace("hilang","gasanlogobujursalah")
+            e.className = e.className.replace("gasanlogobujursalah","hilang")
+        }else{
+            e.className = e.className.replace("hilang","gasanlogobujursalah")
+            d.className = d.className.replace("gasanlogobujursalah","hilang")
+            c.innerHTML = "jawaban kamu salah.<br>-32 + 2 = 2 + (-32) = -30"}
+
     }
+    
 }
 
 function cekjawaban1(){
@@ -47,15 +53,21 @@ function cekjawaban1(){
     var b = document.getElementById("sl1k2");
     var d = document.getElementById("sl1k1bujur");
     var e = document.getElementById("sl1k1salah");
-    
-
-    if(a.value=="(-23)+27" && b.value=="4"){
-        d.className = d.className.replace("hilang","gasanlogobujursalah")
-        e.className = e.className.replace("gasanlogobujursalah","hilang")
+    var c = document.getElementById("jaw")
+    var hasil = a.value.split(' ').join('');
+    if(a.value=="" && b.value==""){
+        window.alert("kamu belum mengisi jawaban");
     }else{
-        e.className = e.className.replace("hilang","gasanlogobujursalah")
-        d.className = d.className.replace("gasanlogobujursalah","hilang")
+        if(hasil=="(-23)+27" || hasil=="-23+27" && b.value=="4"){
+            d.className = d.className.replace("hilang","gasanlogobujursalah")
+            e.className = e.className.replace("gasanlogobujursalah","hilang")
+        }else{
+            e.className = e.className.replace("hilang","gasanlogobujursalah");
+            d.className = d.className.replace("gasanlogobujursalah","hilang");
+            c.innerHTML = "jawaban kamu salah.<br>27 + (-23) = -23 + 27 = 4"
+        }
     }
+    
 }
 
 function cekjawaban(){
