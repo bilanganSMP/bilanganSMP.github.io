@@ -54,7 +54,7 @@ var jsonData = [
 },
 
 {
-  "soal" : "Pada malam hari, suhu di puncak suatu gunung -5°C, kemudian pada siang hari suhunya naik 12°C jadi suhu pada siang hari adalah…",  
+  "soal" : "Pada malam hari, suhu di puncak suatu gunung -5°C, kemudian pada siang hari suhunya naik 12°C jadi suhu pada siang hari adalah",  
   "jawaban" : "7",
   "penjelasan" : "penjelasan <br> suhu malam = -5°C <br> kenaikan suhu 12°C <br> maka -5 + 12 = 7 "
 },
@@ -66,7 +66,7 @@ var jsonData = [
 },
 
 {
-  "soal" : "Diketahui -12 + y + (-26) = 30, nilai p adalah",  
+  "soal" : "Diketahui -12 + y + (-26) = 30, nilai y adalah",  
   "jawaban" : "68",
   "penjelasan" : "penjelasan <br>-12 + y + (-26) = 30<br> -12 + (-26) + y = 30<br>-38 + y = 30<br>y= 30 + 38 = 68"
 }

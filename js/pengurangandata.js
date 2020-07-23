@@ -57,6 +57,12 @@ var jsonData = [
   "soal" : "seorang pedagang mempunyai 475 telur Sebanyak 246 telur dijual di pasar Pedagang itu membeli lagi 255 telur Berapa banyak telur pedagang itu sekarang",  
   "jawaban" : "484",
   "penjelasan" : "jawaban kamu salah<br>475 telur – 246 telur + 255 telur = 484 telur"
+},
+
+{
+  "soal" : "Diketahui 30 - y - 10 = 10, nilai y adalah",  
+  "jawaban" : "10",
+  "penjelasan" : "penjelasan <br>30 - y - 10 = 10<br> 30 - 10 - y = 10<br>20 - y = 10<br>-y= 10 - 20 = -10<br>y = 10"
 }
 ]
 
