@@ -51,6 +51,24 @@ var jsonData = [
   "soal" : "12 - 3 + (-4)",  
   "jawaban" : "5",
   "penjelasan" : "penjelasan = (12-3) + (-4) = 9 + (-4) = 9 - 4 = 5"
+},
+
+{
+  "soal" : "Pada malam hari, suhu di puncak suatu gunung -5°C, kemudian pada siang hari suhunya naik 12°C jadi suhu pada siang hari adalah…",  
+  "jawaban" : "7",
+  "penjelasan" : "penjelasan <br> suhu malam = -5°C <br> kenaikan suhu 12°C <br> maka -5 + 12 = 7 "
+},
+
+{
+  "soal" : "seorang pedagang mempunyai 215 ekor kambing Kemudian ia membeli lagi 282 ekor kambing Seminggu kemudian 235 ekor kambing laku terjual Berapa banyak kambing yang belum terjual",  
+  "jawaban" : "262",
+  "penjelasan" : "penjelasan <br>kambing awal yang dipunya pedagang = 215<br>kambing yang dibeli = 282<br>kambing yang terjual=235<br>maka 215 + 282 - 235 = 262"
+},
+
+{
+  "soal" : "Diketahui -12 + y + (-26) = 30, nilai p adalah",  
+  "jawaban" : "68",
+  "penjelasan" : "penjelasan <br>-12 + y + (-26) = 30<br> -12 + (-26) + y = 30<br>-38 + y = 30<br>y= 30 + 38 = 68"
 }
 
     

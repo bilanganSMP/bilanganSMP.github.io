@@ -32,7 +32,7 @@ var jsonData = [
     {
       "soal" : "-43 - (-21)",  
       "jawaban" : "-22",
-      "penjelasan" : "jawaban kamu salah<br>penjelasan = -43 - (-21) = -43 + 21"
+      "penjelasan" : "jawaban kamu salah<br>penjelasan = -43 - (-21) = -43 + 21 = -22"
   },
 
   {
@@ -52,7 +52,12 @@ var jsonData = [
   "jawaban" : "-115",
   "penjelasan" : "jawaban kamu salah<br>penjelasan = ((-43) - 29) - 43 = -72 - 43 = -115"
 },
-    
+
+{
+  "soal" : "seorang pedagang mempunyai 475 telur Sebanyak 246 telur dijual di pasar Pedagang itu membeli lagi 255 telur Berapa banyak telur pedagang itu sekarang",  
+  "jawaban" : "484",
+  "penjelasan" : "jawaban kamu salah<br>475 telur – 246 telur + 255 telur = 484 telur"
+}
 ]
 
   jsonData = shuffle(jsonData);
