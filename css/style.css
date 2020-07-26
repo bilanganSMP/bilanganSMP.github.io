@@ -177,8 +177,7 @@ text-align: center;
 
 
 td {
-  text-align: center;
-  padding: 5px;
+  
 }
 
 .hilanglat{
@@ -666,6 +665,50 @@ border-bottom: none;
 }
 .divscratch{
   padding-left: 215px;
+}
+
+mjx-container {
+  margin: 0px !important;
+  padding: 0px !important;
+  display: inline-block !important;
+}
+
+.jawabpecahan{
+  border: none;
+  border-bottom: solid 1px black;
+  text-align: center;
+  width: 24px;
+}
+
+.jawabpecahan1{
+  border: none;
+  text-align: center;
+  width: 24px;
+}
+
+.jawabpecahanbenar{
+  border: solid 2px green;
+  text-align: center;
+  width: 24px;
+}
+
+.jawabpecahansalah{
+  border: solid 2px red;
+  text-align: center;
+  width: 24px;
+}
+
+.tabel{
+  font-size: 12px !important;
+  text-align: left !important;
+  text-align: justify;
+  padding: 5px;
+}
+
+.tabel2{
+  font-size: 14px !important;
+  text-align: center;
+  padding: 5px;
 }
 @media (max-width : 992px) {
   .col-sm-2 {
