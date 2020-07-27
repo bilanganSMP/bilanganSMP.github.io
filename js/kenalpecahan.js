@@ -96,6 +96,7 @@ function cekjawaban(){
         jawab.innerHTML = jsonData[0].penjelasan;
     }
 }
+MathJax.typeset()
 }
 
 function buat1() {
@@ -121,20 +122,23 @@ function cekjawaban1(){
     var jawab = document.getElementById("jawpc2");
     if(a.value==jsonData1[0].atas && b.value==jsonData1[0].bawah){
     jawab.innerHTML="jawaban kamu benar";
+    }else{
+     jawab.innerHTML=jsonData1[0].penjelasan;   
     }
+    MathJax.typeset()
 }
 
 function buat2() {
     var c = document.getElementById("logobujur");
     var d = document.getElementById("logosalah");
-    var x = document.getElementById("soalpc1");
-    var y = document.getElementById("jawpc1");
+    var x = document.getElementById("soalpc2");
+    var y = document.getElementById("jawpc2");
     var z = document.getElementById("penjelasan");
     c.className = c.className.replace("gasanlogobujursalah","hilang");
     d.className = d.className.replace("gasanlogobujursalah","hilang");
     y.innerHTML = "";
-    jsonData = shuffle(jsonData);
-    x.innerHTML = jsonData[0].soal;
+    jsonData1 = shuffle(jsonData1);
+    x.innerHTML = jsonData1[0].soal;
     z.innerHTML = "";
     MathJax.typeset()
   

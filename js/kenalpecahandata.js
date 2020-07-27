@@ -74,14 +74,14 @@ var jsonData1 = [
         "soal" : "\\[\\frac{100}{200}\\]", 
         "atas" : "1",
         "bawah" : "2",
-        "penjelasan" : "3 x 14 = 42<br>7 x 6 = 42<br>bernilai sama"
+        "penjelasan" : "\\[\\frac{100}{200}=\\frac{100:100}{200:100} = \\frac{1}{2}\\]"
     },
 
     {
-        "soal" : "\\[\\frac{100}{300} = \\]", 
+        "soal" : "\\[\\frac{6}{36}\\]", 
         "atas" : "1",
-        "bawah" : "2",
-        "penjelasan" : "3 x 14 = 42<br>7 x 6 = 42<br>bernilai sama"
+        "bawah" : "6",
+        "penjelasan" : "\\[\\frac{6}{36}=\\frac{6:6}{36:6} = \\frac{1}{6}\\]"
     }
 
 

@@ -101,6 +101,21 @@ function selanjutnya1(){
     document.getElementById("sl2k3").value = "";
 }
 
+function selanjutnya2(){
+    var a = document.getElementById("pertanyaan3pertambahan");
+    var b = document.getElementById("pertanyaan4pertambahan");
+
+    a.className = a.className.replace("uklat","hilang");
+    b.className = b.className.replace("hilang","uklat");
+
+    document.getElementById("sl1k1").value = "";
+    document.getElementById("sl1k2").value = "";
+   
+    document.getElementById("sl2k1").value = "";
+    document.getElementById("sl2k2").value = "";
+    document.getElementById("sl2k3").value = "";
+}
+
 function sebelumnya(){
     var a = document.getElementById("pertanyaan1pertambahan");
     var b = document.getElementById("pertanyaan2pertambahan");
@@ -117,6 +132,16 @@ function sebelumnya(){
 function sebelumnya1(){
     var a = document.getElementById("pertanyaan2pertambahan");
     var b = document.getElementById("pertanyaan3pertambahan");
+
+    a.className = a.className.replace("hilang","uklat");
+    b.className = b.className.replace("uklat","hilang");
+
+    
+}
+
+function sebelumnya2(){
+    var a = document.getElementById("pertanyaan3pertambahan");
+    var b = document.getElementById("pertanyaan4pertambahan");
 
     a.className = a.className.replace("hilang","uklat");
     b.className = b.className.replace("uklat","hilang");
