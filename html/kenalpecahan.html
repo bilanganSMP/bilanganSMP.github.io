@@ -6,7 +6,7 @@
         
         </title>
         <link rel="icon" type="image/png" href="../logo/ff.png">
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style2.css">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/botstrap/bootstrap.min.css">
@@ -309,13 +309,13 @@
               <ul>
               <li>mengubah desimal menjadi Pecahan biasa</li>
               <b>Contoh:</b><br></ul>
-              \[0,2 =\frac{2}{10} \rightarrow disederhanakan \frac{2:2}{10:2}=\frac{1}{5}\]<br><br>
-              \[0,25 =\frac{25}{100} \rightarrow disederhanakan \frac{25:25}{100:25}=\frac{1}{4}\]<br><br>
-              \[5,3 = \frac{53}{10} \rightarrow disederhanakan \frac{50}{10}+\frac{3}{10} = 5\frac{3}{10}\]<br><br>
+              \[0,2 =\frac{2}{10} \rightarrow \frac{2:2}{10:2}=\frac{1}{5}\]<br><br>
+              \[0,25 =\frac{25}{100} \rightarrow  \frac{25:25}{100:25}=\frac{1}{4}\]<br><br>
+              \[5,3 = \frac{53}{10} \rightarrow \frac{50}{10}+\frac{3}{10} = 5\frac{3}{10}\]<br><br>
               <ul><li>Mengubah persen menjadi Pecahan</li>
               <b>Contoh:</b><br></ul>
-              \[5\]% = \[\frac{5}{100} \rightarrow disederhanakan \frac{5:5}{100:5}=\frac{1}{20}\]<br><br>
-              \[36\]% = \[\frac{36}{100} \rightarrow disederhanakan \frac{36:4}{100:4}=\frac{9}{25}\]<br><br>
+              \[5\]% = \[\frac{5}{100} \rightarrow  \frac{5:5}{100:5}=\frac{1}{20}\]<br><br>
+              \[36\]% = \[\frac{36}{100} \rightarrow  \frac{36:4}{100:4}=\frac{9}{25}\]<br><br>
             
 
 </div>
@@ -325,46 +325,29 @@
     <br><div id="mauu" style="border: solid 3px blueviolet; background-color: #916dd5; width: 450px; height: min-content">
       <div id="pertanyaan1pertambahan" class="uklat" style="color: white; padding: 5px;">
          <div style="padding-bottom: 5px;">
-          1 dari 3
-          <br>Manakah dibawah ini sifat-sifat pembagian yang benar?
+          1 dari 4
+          <br>Tentukan apakah Bilangan dibawah ini senilai?
       </div>
-          <div class="page">
-              <div class="page__toggle">
-                <label class="toggle">
-                  <input class="toggle__input" type="checkbox" id="p1">
-                  <span class="toggle__label">
-                    <span class="toggle__text">tidak tertutup</span>
-                  </span>
-                </label>
-              </div>
-              <div class="page__toggle">
-                <label class="toggle">
-                  <input class="toggle__input" type="checkbox" id="p2">
-                  <span class="toggle__label">
-                    <span class="toggle__text">komutatif</span>
-                  </span>
-                </label>
-              </div>
-              <div class="page__toggle">
-                  <label class="toggle">
-                    <input class="toggle__input" type="checkbox" id="p3">
-                    <span class="toggle__label">
-                      <span class="toggle__text">asosiatif</span>
-                    </span>
-                  </label>
-                </div>
-                <div class="page__toggle">
-                  <label class="toggle">
-                    <input class="toggle__input" type="checkbox" id="p4">
-                    <span class="toggle__label">
-                      <span class="toggle__text">distributif</span>
-                    </span>
-                  </label>
-                </div>
-            </div>
+      <div id="soalpc1" class="text-center" style="font-size: 20px; padding-bottom: 17px;">
+        <br>
+      </div>
+      <div style="padding-left: 30px;">
+        <form action="#">
+          <p>
+            <input type="radio" value="senilai" id="j1" name="radio-group">
+            <label for="j1">Senilai</label>
+          </p>
+          <p>
+            <input type="radio" value="tidak" id="j2" name="radio-group">
+            <label for="j2">tidak senilai</label>
+          </p>
+          
+        </form>
+      </div>
             <div class="tombol1">
             <button disabled class="tombolsoal" onclick="sebelumnya()">Sebelumnya</button>
             <button class="tombolsoal" onclick="cekjawaban()">Cek</button>
+            <button class="tombolsoal" onclick="buat1()">Buat</button>
             <button class="tombolsoal" onclick="selanjutnya()">Selanjutnya</button>
           </div>
             <div id="jawaban1" class="text-center">
@@ -413,7 +396,7 @@
             <div class="tombol1">
               <button class="tombolsoal" onclick="sebelumnya1()">Sebelumnya</button>
               <button class="tombolsoal" onclick="buat()">Buat</button>
-              <button disabled class="tombolsoal" onclick="selanjutnya()">Selanjutnya</button>
+              <button disabled class="tombolsoal" onclick="selanjutnya2()">Selanjutnya</button>
             </div>
         </div>
 
@@ -432,10 +415,12 @@
 <footer class="container-fluid text-center">
   <p>@rizaldi aprilian</p>
 </footer>
+<script src="../js/kenalpecahandata.js"></script>
 <script src="../js/test.js"></script>
 <script src="../js/mencobai.js"></script>
 <script src="../js/cekcoba.js"></script>
 <script src="../js/shuffle.js"></script>
 <script src="../js/kenalpecahan.js"></script>
+
 </body>
 </html>

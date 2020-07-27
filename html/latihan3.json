@@ -32,13 +32,13 @@
 
 }, {
     "soal2": {
-        "soal": "Diketahui Pembagian Bilangan bulat berikut.p= -48 : 4; q= -72 : (-9); r= 54 : (-6)",
+        "soal": "Diketahui Pembagian Bilangan bulat berikut.p= -48 : 4; q= -72 : (-9); r= 54 : (-6). urutan hasil dari yang terkecil adalah...",
         "a": "p,q,r",
         "b": "p,r,q",
         "c": "r,q,p",
         "d": "r,p,q",
-        "benar": "a",
-        "nih": "-26"
+        "benar": "b",
+        "nih": "p,r,q"
     }
     
     
