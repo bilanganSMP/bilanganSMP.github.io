@@ -295,7 +295,12 @@ console.log(namavariabel);
                 }
                
                 if (hasilakhir<75){
-                    document.getElementById("emot1").src = "../logo/sad.png";   
+                    document.getElementById("emot1").src = "../logo/sad.png";
+                    document.getElementById("remedial").classList.add("tombolsoal");
+                    document.getElementById("remedial").classList.remove("hilang");  
+                }else{
+                    document.getElementById("selesai").classList.add("tombolsoal");
+                    document.getElementById("selesai").classList.remove("hilang"); 
                 }
 				let kitahasil = document.getElementById('kiri');
 				let kitahasil1 = document.getElementById('kanan');
@@ -344,7 +349,7 @@ console.log(namavariabel);
 }
 
 
-dat.open('GET', 'latihan2.json', true);
+dat.open('GET', 'latihan3.json', true);
 dat.send();
 
 
@@ -399,7 +404,7 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilaisubbab2/"+counter);
+    let db= firebase.database().ref("nilaisubbab3/"+counter);
     db.set(task);
 
 }
@@ -424,13 +429,13 @@ function mulaiaja(){
     namavariabel = document.getElementById("nama").value;
     kelasvariabel = document.getElementById("kelas").value;
     sekolahvariabel = document.getElementById("sekolah").value;
-if(kelasvariabel==""||namavariabel==""||sekolahvariabel==""){
+    
+if(kelasvariabel=="0"||namavariabel==""||sekolahvariabel==""){
     window.alert("isikan nama, kelas dan asal sekolah")
 }else{
     a.className = a.className.replace("contentt","hilang");
     b.className = b.className.replace("hilang","contentt");
     c.className = c.className.replace("hilang","contentt");
-    
-    console.log(namavariabel);
+    console.log(kelasvariabel);
 }
 }

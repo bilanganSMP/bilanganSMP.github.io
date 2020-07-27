@@ -1,124 +1,164 @@
 [{
     "soal0": {
-        "soal": "Hasil dari 72 +(-28)  adalah…",
-        "a": "46",
-        "b": "44",
-        "c": "-44",
-        "d": "-46",
-        "benar": "b",
-        "nih": "44"
+        "soal": "Hasil dari -6 x (-5) x 11 x 8 =…",
+        "a": "-2640",
+        "b": "-2460",
+        "c": "2460",
+        "d": "2640",
+        "benar": "d",
+        "nih": "2640"
     }
+    
+    
+    
+    
 
 }, {
     "soal1": {
-        "soal": "Hasil dari -31 + (-65) adalah…",
-        "a": "-94",
-        "b": "-34",
-        "c": "-96",
-        "d": "96",
-        "benar": "c",
-        "nih": "-96"
+        "soal": "Hasil dari 180 : (-60 : 15) =….",
+        "a": "-45",
+        "b": "45",
+        "c": "60",
+        "d": "5",
+        "benar": "a",
+        "nih": "-45"
     }
+    
+    
+   
+    
 
 
 
 }, {
     "soal2": {
-        "soal": "Hasil 63 + (-178) + 89 =…",
-        "a": "-26",
-        "b": "-24",
-        "c": "24",
-        "d": "26",
+        "soal": "Diketahui Pembagian Bilangan bulat berikut.p= -48 : 4; q= -72 : (-9); r= 54 : (-6)",
+        "a": "p,q,r",
+        "b": "p,r,q",
+        "c": "r,q,p",
+        "d": "r,p,q",
         "benar": "a",
         "nih": "-26"
     }
+    
+    
+    
+    
 
 
 }, {
     "soal3": {
-        "soal": "Jika -11 + (-8) – (-18) = n, nilai n =….",
-        "a": "37",
-        "b": "1",
-        "c": "-1",
-        "d": "-37",
+        "soal": "diketahui nilai p = 240, q = -4, r = -60 dan s = 3. Hasil dari (p : q) : (r : s) =…",
+        "a": "-3",
+        "b": "-2",
+        "c": "2",
+        "d": "3",
         "benar": "c",
-        "nih": "-1"
+        "nih": "2"
     }
+    
+   
+    
+    
 }, {
     "soal4": {
-        "soal": "Diketahui suhu di kota X adalah -27°C dan suhu dikota Y 12°C. jika dikota X turun 5°C dan di kota Y naik 2°C. berapa selisih kedua di kedua kota tersebut?",
-        "a": "46°C",
-        "b": "44°C",
-        "c": "42°C",
-        "d": "38°C",
-        "benar": "a",
-        "nih": "46°C"
+        "soal": "Untuk membantu korban bencana alam, 54 murid sekolah dasar mengumpulkan uang. Setiap orang menyumbang 1.250 rupiah. Berapa uang yang terkumpul seluruhnya?",
+        "a": "Rp.67.400",
+        "b": "Rp.67.500",
+        "c": "Rp.67.600",
+        "d": "Rp.67.700",
+        "benar": "b",
+        "nih": "Rp.67.500"
     }
+    
+    
+    
+    
  	
 
 }, {
     "soal5": {
-        "soal": "Diketahui -71 + p + (-96) = 25, nilai p adalah…",
-        "a": "-142",
-        "b": "142",
-        "c": "182",
-        "d": "192",
+        "soal": "Nilai dari (−2)×(−3)×(−4)×(−5)=…",
+        "a": "-14",
+        "b": "-120",
+        "c": "14",
+        "d": "120",
         "benar": "d",
-        "nih": "192"
+        "nih": "120"
     }
+    
+    
+    
+    
     
 }, {
     "soal6": {
-        "soal": "Jika suhu awal 6°C kemudian turun 12°C, maka suhu akhir angka menunjukan …",
-        "a": "18°C",
-        "b": "6°C",
-        "c": "-18°C",
-        "d": "-6°C",
-        "benar": "d",
-        "nih": "-6°C"	
-
+        "soal": "Di sebuah gudang beras terdapat 550 karung beras. Setiap karung beratnya 25 kg. Berapa kg beras yang ada di gudang itu?",
+        "a": "13.750 kg",
+        "b": "13.760 kg",
+        "c": "13.770 kg",
+        "d": "13.780 kg",
+        "benar": "a",
+        "nih": "13.750 kg"	
+        
+        
+        
+        
+        
     }
     
 
 }, {
     "soal7": {
-        "soal": "Diketahui m = -184-(-62) + (-94) dan n = 73 + (-82) – (-126), nilai m – n adalah….",
-        "a": "-343",
-        "b": "-333",
-        "c": "-99",
-        "d": "99",
-        "benar": "b",
-        "nih": "-333"	
+        "soal": "Hasil dari (−5)×(−4)×2=…",
+        "a": "-40",
+        "b": "-30",
+        "c": "20",
+        "d": "40",
+        "benar": "d",
+        "nih": "40"	
         
     }
+    
+    
+    
+    
 
    	 
 
 }, {
     "soal8": {
-        "soal": "Diketahui a, b, c. anggota Bilangan bulat sembarang dengan a < b < c.  pernyataan yang benar adalah…",
-        "a": "a-b > b-c",
-        "b": "b-a < -c+a",
-        "c": "-b-c < a-b",
-        "d": "-a+b < b-c",
-        "benar": "c",
-        "nih": "-b-c < a-b"
+        "soal": "Untuk membantu korban bencana alam, panitia akan membagikan 3.375 kg beras kepada 45 kepala keluarga. Berapa kilogram-kah setiap kepala keluarga menerima beras?",
+        "a": "74 kg",
+        "b": "75 kg",
+        "c": "76 kg",
+        "d": "77 kg",
+        "benar": "b",
+        "nih": "75 kg"
         
         
+
+
+
+
     }
   	
 
 }, {
     "soal9": {
-        "soal": "Pada pagi hari, suhu di puncak suatu gunung -1°C, kemudian pada malam hari suhunya turun 6°C jadi suhu pada malam hari adalah…",
-        "a": "-7°C",
-        "b": "-5°C",
-        "c": "5°C",
-        "d": "7",
+        "soal": "Hasil dari (−75) : (−25) =…",
+        "a": "3",
+        "b": "4",
+        "c": "-3",
+        "d": "-4",
         "benar": "a",
-        "nih": "-7°C"
+        "nih": "3"
 
     }
+    
+    
+    
+    
 
 
 
