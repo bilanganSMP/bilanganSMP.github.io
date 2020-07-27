@@ -82,17 +82,18 @@ document.getElementById("soalpc1").innerHTML = jsonData[0].soal;
 function cekjawaban(){
     var a = document.getElementById("j1");
     var b = document.getElementById("j2");
+    var jawab = document.getElementById("jawpc1");
     if(a.checked==true){
     if(a.value==jsonData[0].jawaban){
-        console.log("benar");
+        jawab.innerHTML = "jawaban kamu benar";
     }else{
-        console.log("salah");
+        jawab.innerHTML = jsonData[0].penjelasan;
     }
 }else{
     if(b.value==jsonData[0].jawaban){
-        console.log("benar");
+        jawab.innerHTML = "jawaban kamu benar";
     }else{
-        console.log("salah");
+        jawab.innerHTML = jsonData[0].penjelasan;
     }
 }
 }
@@ -101,11 +102,37 @@ function buat1() {
     var c = document.getElementById("logobujur");
     var d = document.getElementById("logosalah");
     var x = document.getElementById("soalpc1");
-    var y = document.getElementById("buat1");
+    var y = document.getElementById("jawpc1");
     var z = document.getElementById("penjelasan");
     c.className = c.className.replace("gasanlogobujursalah","hilang");
     d.className = d.className.replace("gasanlogobujursalah","hilang");
-    y.value = "";
+    y.innerHTML = "";
+    jsonData = shuffle(jsonData);
+    x.innerHTML = jsonData[0].soal;
+    z.innerHTML = "";
+    MathJax.typeset()
+  
+}
+
+document.getElementById("soalpc2").innerHTML = jsonData1[0].soal;
+function cekjawaban1(){
+    var a = document.getElementById("pcatas");
+    var b = document.getElementById("pcbawah");
+    var jawab = document.getElementById("jawpc2");
+    if(a.value==jsonData1[0].atas && b.value==jsonData1[0].bawah){
+    jawab.innerHTML="jawaban kamu benar";
+    }
+}
+
+function buat2() {
+    var c = document.getElementById("logobujur");
+    var d = document.getElementById("logosalah");
+    var x = document.getElementById("soalpc1");
+    var y = document.getElementById("jawpc1");
+    var z = document.getElementById("penjelasan");
+    c.className = c.className.replace("gasanlogobujursalah","hilang");
+    d.className = d.className.replace("gasanlogobujursalah","hilang");
+    y.innerHTML = "";
     jsonData = shuffle(jsonData);
     x.innerHTML = jsonData[0].soal;
     z.innerHTML = "";

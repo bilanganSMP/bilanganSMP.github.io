@@ -343,6 +343,7 @@
           </p>
           
         </form>
+        
       </div>
             <div class="tombol1">
             <button disabled class="tombolsoal" onclick="sebelumnya()">Sebelumnya</button>
@@ -350,32 +351,35 @@
             <button class="tombolsoal" onclick="buat1()">Buat</button>
             <button class="tombolsoal" onclick="selanjutnya()">Selanjutnya</button>
           </div>
-            <div id="jawaban1" class="text-center">
+            <div id="jawpc1" class="text-center">
                 
             </div>
           </div>
           <div id="pertanyaan2pertambahan" class="hilang" style="color: white; padding: 5px;">
               <div style="padding-bottom: 10px;">
-                  2 dari 3
-                  <br>Jika Pembagian berlaku a : b = c ↔ b x c = a maka?
+                  2 dari 4
+                  <br>Berapa bentuk sederhana dari Pecahan berikut.
               </div>
-              <div id="soal2pertambahan">
-                20 : 2  <br> = ( <input type="text" id="ds1" value="" size="1" class="biasa1"> X <input type="text" id="ds2" value="" size="1" class="biasa1"> )
-                  = <input type="text" id="ds3" value="" size="1" class="biasa1">
-                  <button class="tombolsoal" onclick="cekjawaban1()">cek</button> <img src="../logo/false.png" id="sl1k1salah" class="hilang"><img src="../logo/correct.png" class="hilang" id="sl1k1bujur">
-                  <br><div id="jaw" style="width: 245px; height: min-content;"></div>
-                  <br>
-                  100 : 2  <br> = ( <input type="text" id="dt1" value="" size="1" class="biasa1"> X <input type="text" id="dt2" value="" size="1" class="biasa1">)
-                  = <input type="text" id="dt3" value="" size="1" class="biasa1">
-                  <button class="tombolsoal" onclick="cekjawaban2()">cek</button> <img src="../logo/false.png" id="sl2k1salah" class="hilang"><img src="../logo/correct.png" class="hilang" id="sl2k1bujur">
-                  <br><div id="jaw2" style="width: 245px; height: min-content;"></div>
-                  <br> 
-              </div> 
+              
+              <div id="soalpc2" class="text-center" style="height: 40px;"></div>
+                <div style="display: inline-block; vertical-align: middle; height: 97px;font-size: 35px;">=</div>
+                <div style="display: inline-block;">  
+                <input placeholder="..." style="text-align: center; color: white; border: none; border-bottom: solid 2px black; background-color: #916dd5;" type="text" size="1" id="pcatas"><br>
+                <input placeholder="..." style="text-align: center; color: white; border: none; background-color: #916dd5;" size="1" id="pcbawah">
+              </div>
+              
+              
               <div class="tombol1">
                 <button class="tombolsoal" onclick="sebelumnya()">Sebelumnya</button>
+                <button class="tombolsoal" onclick="cekjawaban1()">Cek</button>
+                <button class="tombolsoal" onclick="buat2()">Buat</button>
                 <button class="tombolsoal" onclick="selanjutnya1()">Selanjutnya</button>
               </div>
-          </div>
+              <div id="jawpc2" class="text-center">
+                
+              </div>
+          
+            </div>
           
 
           <div id="pertanyaan3pertambahan" class="hilang" style="color: white; padding: 5px;">

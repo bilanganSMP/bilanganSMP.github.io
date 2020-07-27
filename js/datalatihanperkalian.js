@@ -429,7 +429,7 @@ function mulaiaja(){
     namavariabel = document.getElementById("nama").value;
     kelasvariabel = document.getElementById("kelas").value;
     sekolahvariabel = document.getElementById("sekolah").value;
-    
+    MathJax.typeset()
 if(kelasvariabel=="0"||namavariabel==""||sekolahvariabel==""){
     window.alert("isikan nama, kelas dan asal sekolah")
 }else{
@@ -437,5 +437,6 @@ if(kelasvariabel=="0"||namavariabel==""||sekolahvariabel==""){
     b.className = b.className.replace("hilang","contentt");
     c.className = c.className.replace("hilang","contentt");
     console.log(kelasvariabel);
+    MathJax.typeset()
 }
 }
