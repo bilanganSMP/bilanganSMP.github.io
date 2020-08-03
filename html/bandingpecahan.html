@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Bilangan
+        
+        </title>
+ <!-- Angular/Bootstrap -->
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+<!-- Wijmo -->
+<link href="http://cdn.wijmo.com/5.latest/styles/wijmo.min.css" rel="stylesheet" type="text/css" />
+<script src="http://cdn.wijmo.com/5.latest/controls/wijmo.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/5.latest/controls/wijmo.input.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/5.latest/controls/wijmo.grid.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/5.latest/controls/wijmo.grid.filter.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/5.latest/controls/wijmo.grid.grouppanel.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/5.latest/controls/wijmo.olap.min.js" type="text/javascript"></script>
+
+ <!-- Wijmo-Angular interop -->
+ <script src="http://cdn.wijmo.com/5.latest/interop/angular/wijmo.angular.min.js" type="text/javascript"></script>
+
+ <!-- app scripts/styles -->
+ <link href="../mencoba/dragdroptouch-master/demo/app.css" rel="stylesheet" />
+ <script src="../mencoba/dragdroptouch-master/DragDropTouch.js"></script>
+ <script src="../mencoba/dragdroptouch-master/demo/app.js"></script>
+
+
+
+        <link rel="icon" type="image/png" href="../logo/ff.png">
+<link rel="stylesheet" href="../css/style2.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/botstrap/bootstrap.min.css">
+  <script src="../css/botstrap/jquery.min.js"></script>
+  <script src="../css/botstrap/bootstrap.min.js"></script>
+  <script src="../js/link.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+</head>
+<body ng-app="app" ng-controller="appCtrl">
+<div class="header">
+  <a href="../index.html"><img src="../logo/fff.png" alt="Home" style="width:200px;height:90px;border:0;"></a>
+  <div class="header-right">
+    <a class="active" href="#home">Materi</a>
+    <a href="KI.html">KI dan KD</a>
+    <a href="info.html">Info</a>
+  </div>
+  
+</div>
+
+<div class="sidenav col-sm-2 navsamping">
+  <button class="dropdown-btn">mengenal bilangan bulat</button>
+      <div class="dropdown-container">
+        <a href="materi1.html">Mengenal dan Membandingkan Bilangan Bulat</a>
+        <a href="latihan1.html">kuis</a>
+        
+      </div>
+  
+      <button class="dropdown-btn">Penjumlahan Dan Pengurangan bilangan bulat</button>
+        <div class="dropdown-container">
+          <a href="materi2.html">Penjumlahan bilangan bulat</a>
+          <a href="materi21.html">Pengurangan bilangan bulat </a>      
+          <a href="#latihan2.html">kuis</a>
+          
+        </div>
+  
+        <button class="dropdown-btn">perkalian dan pembagian bilangan bulat</button>
+        <div class="dropdown-container">
+          <a href="perkalian.html">perkalian bilangan bulat</a>
+          <a href="pembagian.html">pembagian bilangan bulat</a>
+          <a href="#">kuis</a>
+          
+        </div>
+  
+        <button class="dropdown-btn">mengenal dan membandingkan bilangan pecahan</button>
+        <div class="dropdown-container">
+          <a href="kenalpecahan.html">mengenal pecahan</a>
+          <a href="#">membandingkan pecahan</a>
+          <a href="#">kuis</a>
+          
+        </div>
+  
+        <button class="dropdown-btn">Penjumlahan Dan Pengurangan bilangan pecahan</button>
+        <div class="dropdown-container">
+          <a href="#">Penjumlahan bilangan pecahan</a>
+          <a href="#">Pengurangan bilangan pecahan </a>      
+          <a href="#">kuis</a>
+          
+        </div>
+    
+        <button class="dropdown-btn">perkalian dan pembagian bilangan pecahan</button>
+        <div class="dropdown-container">
+          <a href="#">perkalian bilangan pecahan</a>
+          <a href="#">Pengurangan bilangan pecahan </a>      
+          <a href="#">kuis</a>
+          
+        </div>
+
+        <button class="dropdown-btn">mengenal bilangan berpangkat positif</button>
+        <div class="dropdown-container">
+          <a href="#">bilangan berpangkat</a>     
+          <a href="#">kuis</a>
+          
+        </div>
+
+        <button class="dropdown-btn">FPB dan KPK</button>
+        <div class="dropdown-container">
+          <a href="#">FPB</a>
+          <a href="#">KPK</a>      
+          <a href="#">kuis</a>
+          
+        </div>
+
+        <a href="#">Latihan</a>
+</div>
+    
+<div class="container-fluid">    
+  <div class="row content">
+   <div class="col-sm-10 text-center" style="height: 50px; border-style: double; border-color: #8b2f97;">
+    <a href="#"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
+    <a href="kenalpecahan.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
+    
+   </div>
+   <div class="col-sm-5 contentt" id="klik1materi2">
+    <button class="btntujuan" data-toggle="collapse" data-target="#prasyarat2">Prasyarat</button>
+    <br><div id="prasyarat2" class="collapse" style="color: white; background-color: #8b2f97; width: fit-content; border-radius: 3px; padding: 5px;">tidak ada prasyarat</div>
+    <button class="btntujuan" data-toggle="collapse" data-target="#tujuan2">Tujuan Pembelajaran</button>
+    <br><div id="tujuan2" class="collapse" style="color: white; background-color: #8b2f97; width: fit-content; border-radius: 3px; padding: 5px;">
+    <ol>
+      <li>Siswa mampu membandingkan Pecahan</li>
+        <li>Siswa mampu mengurutkan pecahan</li>
+        
+    </ol>
+    </div>
+    <br><div class="judul"> <img src="../logo/logobuku.png" style="width: 30px; height: 30px;">Membandingkan Bilangan Pecahan</div>
+    <br><p>Perhatikan letak pecahan berikut<br><br>
+    <img id="mauu" src="../logo/garis pecahan.jpg"><br>
+    <p>Dari garis Bilangan tersebut diperoleh:</p>
+    <ol type="a">
+        <li>Pecahan \[\frac{3}{8}\] di kanan \[\frac{1}{8}\] sehingga \[\frac{3}{8} > \frac{1}{8} \] ↔ <b>3 x 8 > 1 x 8 ↔ 24 > 8 (benar)</b></li>
+        <li>Pecahan \[-\frac{2}{8}\] di kanan \[-\frac{5}{8}\] sehingga \[-\frac{2}{8} > -\frac{5}{8} \] ↔ <b>-2 x 8 > -5 x 8 ↔ -16 > -40 (benar)</b></li>
+    </ol>
+    
+        <br><div style="background-color: blueviolet; width: 150px; font-size: 16px; color: white; border-radius: 5px; text-align: center;">Kesimpulan</div>
+    <div id="mauu" style="border-color: blueviolet; border-style: dotted; width: 409px; height: 360px; padding: 5px;">
+        Misalkan diketahui Pecahan \[\frac{a}{b}\],\[\frac{c}{b}\]  dan \[\frac{c}{d}\] dengan \[b \neq 0\] dan \[d \neq 0\].<br><br>
+        <ol type="a">
+            <li>Membandingkan Pecahan berpenyebut sama.</li>
+            Pecahan \[\frac{a}{b}\] < \[\frac{c}{b}\] ↔ a < c<br><br>
+            Pecahan \[\frac{a}{b}\] > \[\frac{c}{b}\] ↔ a > c
+            <li>Membandingkan Pecahan berpenyebut berbeda.</li>
+            Pecahan \[\frac{a}{b}\] < \[\frac{c}{d}\] ↔ a x d < c x b<br><br>
+            Pecahan \[\frac{a}{b}\] > \[\frac{c}{d}\] ↔ a x d > c x b
+        </ol>
+    
+    </div><br>
+
+    <br><div class="judul"><img src="../logo/logobuku.png" style="width: 30px; height: 30px;"> mengurutkan pecahan</div><br>
+    <p>Bilangan-bilangan Pecahan dapat diurutkan dengan cara mengubah Bilangan-bilangan Pecahan tersebut menjadi Pecahan sejenis, lalu membandingkannya. Kemudian, mengurutkan Bilangan-bilangan Pecahan tersebut dari yang terkecil atau dari yang terbesar</p>
+    <b>contoh:</b><br>
+    urutkanlah pecahan \[\frac{4}{3}\]; 30%; 0,7 dan \[2\frac{3}{4}\] dari terkecil.<br>
+    <b>Jawab:</b><br>
+    <ol>
+        <li>ubah pecahan menjadi sejenis, misal kita ubah semua pecahan menjadi desimal:</li>
+        1. \[\frac{4}{3}\] = 1,33<br><br>
+        2. 30% = \[\frac{30}{100}\] = 0,30<br><br>
+        3. \[2\frac{3}{4}\] = \[\frac{2 \times 4 + 3}{4}\] = \[\frac{11}{8}\] = 1,37<br><br>
+        <li>didapatkan<b>1,33; 0,30; 0,7; 1,37</b> sekarang kita urutkan dari terkecil menjadi:</li>
+           <b>0,30 < 0,7 < 1,33 < 1,37</b>
+        <li>maka urutan pecahan dari yang terkecil adalah <b>30%< 0,7 < \[\frac{4}{3}\] < \[2\frac{3}{4}\]</b></li> 
+    </ol>
+    <br><div class="judul"><img src="../logo/pensil.png" style="width: 30px; height: 30px;"> mari mencoba</div><br>
+    <div id="mauu" style="border-color: blueviolet; border-style: solid; width: 100%; height: min-content; padding: 5px;">
+        <div>isilah titik-titik dibawah ini dengan tepat<br>(petunjuk: isikan bilangan desimal dengan 2 angka dibelakang koma contoh: 1,21)</div><br><br>
+        urutkanlah pecahan \[\frac{1}{3}\]; 50%; 1,9 dan \[3\frac{5}{2}\] dari terbesar.<br>
+    <b>Jawab:</b><br>
+    <ol>
+        <li>ubah pecahan menjadi sejenis, misal kita ubah semua pecahan menjadi desimal:</li>
+        1.  \[\frac{1}{3}\] = <input id="bd1" placeholder="..." type="text" size="1" class="bd"><br><br>
+        2. 50% =  \[\frac{50}{100}\] = <input id="bd2" placeholder="..." type="text" size="1" class="bd"><br><br>
+        3. \[3\frac{5}{2}\] = \[\frac{3 \times 2 + 5}{2}\] = \[\frac{11}{2}\] = <input id="bd3" placeholder="..." type="text" size="1" class="bd"><br><br>
+        <li>sekarang kita urutkan dari terbesar menjadi:</li>
+        <input id="bd4" placeholder="..." type="text" size="1" class="bd"> > <input id="bd5" placeholder="..." type="text" size="1" class="bd"> > <input id="bd6" placeholder="..." type="text" size="1" class="bd"> > <input id="bd7" placeholder="..." type="text" size="1" class="bd">
+        <li id="jawaban3" class="hilang">maka urutan pecahan dari yang terkecil adalah<br> <b>\[3\frac{2}{5}\] > 1,9 > 50% > \[\frac{1}{3}\]</b></li>
+    </ol>    
+</div>
+    
+            
+
+</div>
+
+  <div class="col-sm-5 contentt" id="klik2materi2">
+    <div class="judul"> <img src="../logo/tanya.png" style="width: 30px; height: 30px;"> pertanyaan</div>
+    <br><div id="mauu" style="border: solid 3px blueviolet; background-color: #916dd5; width: 450px; height: min-content">
+      <div id="pertanyaan1pertambahan" class="uklat" style="color: white; padding: 5px;">
+         <div style="padding-bottom: 5px;">
+          1 dari 2
+          <br>Isilah soal ini dengan Simbol-simbol perbandingan bilangan ("<",">")<br>
+          <div style="font-size: 12px;">petunjuk: klik tombol buat untuk mengganti soal dan klik tombol cek untuk memeriksa jawaban</div>
+      </div>
+      <div id="soalpc1" class="text-center" style="font-size: 20px; padding-bottom: 17px;">
+        <table class="table">
+            <tr>
+                <td id="bil1" style="font-size: 24px; text-align: right;">
+                    
+                </td>
+                <td>
+                    <input type="text" id="jawab" class="biasa" size="1" style="font-size: 24px;">
+                </td>
+                <td id="bil2" style="font-size: 24px; text-align: left;">
+                    
+                </td>
+            </tr>
+              </table><br>
+      </div>
+            <div class="tombol1">
+            <button disabled class="tombolsoal" onclick="sebelumnya()">Sebelumnya</button>
+            <button class="tombolsoal" onclick="cekjawaban()">Cek</button>
+            <button class="tombolsoal" onclick="buat1()">Buat</button>
+            <button class="tombolsoal" onclick="selanjutnya()">Selanjutnya</button>
+          </div>
+            <div id="jawbd1" class="text-center"  style="padding-top: 20px;  height: min-content;">
+                
+            </div>
+          </div>
+          <div id="pertanyaan2pertambahan" class="hilang" style="color: white; padding: 5px;">
+              <div style="padding-bottom: 10px;">
+                  2 dari 2
+                  <br>	Bu santi sedang berbelanja ikan papuyu , haruan, dan jelawat. Ia membeli \[\frac{1}{2}\]  kg papuyu, \[\frac{3}{4}\] kg haruan, dan 0,4 kg jelawat. Urutkan belanjaan bu santi dari yang paling berat.
+              </div>
+              
+              <div id="columns">
+                <div id="A" class="column" draggable="true"><header>papuyu</header></div>>
+                <div id="B" class="column" draggable="true"><header>haruan</header></div>>
+                <div id="C" class="column" draggable="true"><header>jelawat</header></div>
+              </div>
+              
+              
+              <div class="tombol1">
+                <button class="tombolsoal" onclick="sebelumnya()">Sebelumnya</button>
+                <button class="tombolsoal" onclick="cekjawaban1()">Cek</button>
+                <button disabled class="tombolsoal" onclick="selanjutnya1()">Selanjutnya</button>
+              </div>
+              <div style="padding-top: 20px; height: min-content;" id="jawpc2" class="text-center">
+                <div style="font-size: 12px;">petunjuk: tahan kotak berwarna ungu berisikan nama ikan lalu pindahkan sehingga urut dari yang terbesar</div>
+              </div>
+          
+            </div>
+          
+
+
+     </div>
+    
+  </div>   
+</div>
+
+</div>
+ 
+ 
+  
+
+<footer class="container-fluid text-center">
+  <p>@rizaldi aprilian</p>
+</footer>
+<script src="../js/kenalpecahandata.js"></script>
+<script src="../js/test.js"></script>
+<script src="../js/shuffle.js"></script>
+<script src="../js/bandingpecahandata.js"></script>
+<script src="../js/bandingpecahan.js"></script>
+
+
+
+</body>
+</html>

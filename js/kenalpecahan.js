@@ -100,18 +100,16 @@ MathJax.typeset()
 }
 
 function buat1() {
-    var c = document.getElementById("logobujur");
-    var d = document.getElementById("logosalah");
     var x = document.getElementById("soalpc1");
     var y = document.getElementById("jawpc1");
-    var z = document.getElementById("penjelasan");
-    c.className = c.className.replace("gasanlogobujursalah","hilang");
-    d.className = d.className.replace("gasanlogobujursalah","hilang");
+    var a = document.getElementById("j1");
+    var b = document.getElementById("j2");
     y.innerHTML = "";
     jsonData = shuffle(jsonData);
     x.innerHTML = jsonData[0].soal;
-    z.innerHTML = "";
     MathJax.typeset()
+    a.checked = false;
+    b.checked =false;
   
 }
 
@@ -129,17 +127,55 @@ function cekjawaban1(){
 }
 
 function buat2() {
-    var c = document.getElementById("logobujur");
-    var d = document.getElementById("logosalah");
     var x = document.getElementById("soalpc2");
     var y = document.getElementById("jawpc2");
-    var z = document.getElementById("penjelasan");
-    c.className = c.className.replace("gasanlogobujursalah","hilang");
-    d.className = d.className.replace("gasanlogobujursalah","hilang");
+    var a = document.getElementById("pcatas");
+    var b = document.getElementById("pcbawah");
     y.innerHTML = "";
+    a.value = "";
+    b.value = "";
     jsonData1 = shuffle(jsonData1);
     x.innerHTML = jsonData1[0].soal;
-    z.innerHTML = "";
+    MathJax.typeset()
+  
+}
+
+
+function cekjawaban2(){
+    var a = document.getElementById("buat1");
+    var b = document.getElementById("jawpc3");
+    if(a.value=="5"){
+    b.innerHTML="jawaban kamu benar";
+    }else{
+     b.innerHTML="jawaban kamu salah<br>langkah penyelesaian:<br> ubah 250% menjadi pecahan<br>\\[\\frac{250}{100}\\]<br><br>kemudian sederhanakan menjadi pecahan campuran<br>\\[\\frac{250}{100}=\\frac{200}{100}+\\frac{50}{100}=2\\frac{50}{100}\\]<br><br>kemudian sederhanakan<br>\\[2\\frac{50}{100} = 2\\frac{50:10}{100:10}=2\\frac{5}{10}\\]<br><br>maka nilai p adalah 5";   
+    }
+    MathJax.typeset()
+}
+
+
+document.getElementById("soalpc4").innerHTML = jsonData2[0].soal;
+function cekjawaban3(){
+    var a = document.getElementById("pc4atas");
+    var b = document.getElementById("pc4bawah");
+    var jawab = document.getElementById("jawpc4");
+    if(a.value==jsonData2[0].atas && b.value==jsonData2[0].bawah){
+    jawab.innerHTML="jawaban kamu benar";
+    }else{
+     jawab.innerHTML=jsonData2[0].penjelasan;   
+    }
+    MathJax.typeset()
+}
+
+function buat3() {
+    var x = document.getElementById("soalpc4");
+    var y = document.getElementById("jawpc4");
+    var a = document.getElementById("pc4atas");
+    var b = document.getElementById("pc4bawah");
+    y.innerHTML = "";
+   a.value="";
+   b.value="";
+    jsonData2 = shuffle(jsonData2);
+    x.innerHTML = jsonData2[0].soal;
     MathJax.typeset()
   
 }

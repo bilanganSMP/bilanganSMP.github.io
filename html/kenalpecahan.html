@@ -97,8 +97,8 @@
 <div class="container-fluid">    
   <div class="row content">
    <div class="col-sm-10 text-center" style="height: 50px; border-style: double; border-color: #8b2f97;">
-    <a href="materi21.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
-    <a href="latihan1.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
+    <a href="bandingpecahan.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
+    <a href="#"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
     
    </div>
    <div class="col-sm-5 contentt" id="klik1materi2">
@@ -327,6 +327,7 @@
          <div style="padding-bottom: 5px;">
           1 dari 4
           <br>Tentukan apakah Bilangan dibawah ini senilai?
+          <div style="font-size: 12px;">petunjuk: klik tombol buat untuk mengganti soal dan klik tombol cek untuk memeriksa jawaban</div>
       </div>
       <div id="soalpc1" class="text-center" style="font-size: 20px; padding-bottom: 17px;">
         <br>
@@ -351,7 +352,7 @@
             <button class="tombolsoal" onclick="buat1()">Buat</button>
             <button class="tombolsoal" onclick="selanjutnya()">Selanjutnya</button>
           </div>
-            <div id="jawpc1" class="text-center">
+            <div id="jawpc1" class="text-center"  style="padding-top: 20px;  height: min-content;">
                 
             </div>
           </div>
@@ -359,6 +360,7 @@
               <div style="padding-bottom: 10px;">
                   2 dari 4
                   <br>Berapa bentuk sederhana dari Pecahan berikut.
+                  <div style="font-size: 12px;">petunjuk: klik tombol buat untuk mengganti soal dan klik tombol cek untuk memeriksa jawaban</div>
               </div>
               
               <div id="soalpc2" class="text-center" style="height: 40px;"></div>
@@ -375,7 +377,7 @@
                 <button class="tombolsoal" onclick="buat2()">Buat</button>
                 <button class="tombolsoal" onclick="selanjutnya1()">Selanjutnya</button>
               </div>
-              <div style="padding-top: 20px;" id="jawpc2" class="text-center">
+              <div style="padding-top: 20px; height: min-content;" id="jawpc2" class="text-center">
                 
               </div>
           
@@ -391,15 +393,14 @@
               <div id="soalp" style="display: inline-block;">\[2\tfrac{p}{10}\] senilai dengan 250%. Nilai p adalah?</div>
               <div id="klmjwb" style=" display: inline;">
                 = <input type="text" id="buat1" size="2" class="biasa1"> 
-                <button class="tombolsoal" onclick="cekjawabanacak()">cek</button> <img src="../logo/false.png" id="logosalah" class="hilang"><img src="../logo/correct.png" class="hilang" id="logobujur">
+                <button class="tombolsoal" onclick="cekjawaban2()">cek</button> <img src="../logo/false.png" id="logosalah" class="hilang"><img src="../logo/correct.png" class="hilang" id="logobujur">
               </div>
-              <div id="penjelasan" style="width: 245px; height: min-content;">
+              <div id="jawpc3" style="width: 245px; height: min-content;">
                 
               </div>
             </div> 
             <div class="tombol1">
               <button class="tombolsoal" onclick="sebelumnya1()">Sebelumnya</button>
-              <button class="tombolsoal" onclick="buat()">Buat</button>
               <button class="tombolsoal" onclick="selanjutnya2()">Selanjutnya</button>
             </div>
         </div>
@@ -407,21 +408,24 @@
         <div id="pertanyaan4pertambahan" class="hilang" style="color: white; padding: 5px;">
           <div style="padding-bottom: 10px;">
               4 dari 4
-              
+              <br>Ubahlah Pecahan campuran berikut menjadi Pecahan biasa 
+              <div style="font-size: 12px;">petunjuk: klik tombol buat untuk mengganti soal dan klik tombol cek untuk memeriksa jawaban</div>
           </div>
           <div id="soal4pertambahan">
-            <div id="soalp" style="display: inline-block;">\[2\tfrac{p}{10}\] senilai dengan 250%. Nilai p adalah?</div>
-            <div id="klmjwb" style=" display: inline;">
-              = <input type="text" id="buat1" size="2" class="biasa1"> 
-              <button class="tombolsoal" onclick="cekjawabanacak()">cek</button> <img src="../logo/false.png" id="logosalah" class="hilang"><img src="../logo/correct.png" class="hilang" id="logobujur">
-            </div>
-            <div id="penjelasan" style="width: 245px; height: min-content;">
-              
-            </div>
+            <div id="soalpc4" class="text-center" style="height: 40px;"></div>
+            <div style="display: inline-block; vertical-align: middle; height: 97px;font-size: 35px;">=</div>
+            <div style="display: inline-block;">  
+            <input placeholder="..." style="text-align: center; color: white; border: none; border-bottom: solid 2px black; background-color: #916dd5;" type="text" size="1" id="pc4atas"><br>
+            <input placeholder="..." style="text-align: center; color: white; border: none; background-color: #916dd5;" size="1" id="pc4bawah">
+          </div>
           </div> 
+          <div id="jawpc4" style="width: 245px; height: min-content;">
+                
+          </div>
           <div class="tombol1">
             <button class="tombolsoal" onclick="sebelumnya2()">Sebelumnya</button>
-            <button class="tombolsoal" onclick="buat()">Buat</button>
+            <button class="tombolsoal" onclick="buat3()">Buat</button>
+            <button class="tombolsoal" onclick="cekjawaban3()">Cek</button>
             <button disabled class="tombolsoal" onclick="selanjutnya2()">Selanjutnya</button>
           </div>
       </div>

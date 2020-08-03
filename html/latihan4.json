@@ -1,0 +1,168 @@
+[{
+    "soal0": {
+        "soal": "Bentuk sederhana dari \\[\\frac{126}{210}\\] adalah…",
+        "a": "\\[\\frac{1}{2}\\]",
+        "b": "\\[\\frac{2}{3}\\]",
+        "c": "\\[\\frac{3}{5}\\]",
+        "d": "\\[\\frac{3}{3}\\]",
+        "benar": "c",
+        "nih": "\\[\\frac{3}{5}\\]"
+    }
+    
+    
+    
+    
+
+}, {
+    "soal1": {
+        "soal": "Pecahan \\[3\\frac{k}{5}\\] senilai dengan 340% nilai k =….",
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "benar": "b",
+        "nih": "2"
+    }
+    
+    
+   
+    
+
+
+
+}, {
+    "soal2": {
+        "soal": "Soni sedang berlatih menendang bola ke gawang. Dari 20 kali tendangan soni dapat mencetak gol sebanyak 12 kali. Persentase banyak gol adalah..",
+        "a": "60%",
+        "b": "50%",
+        "c": "40%",
+        "d": "55%",
+        "benar": "a",
+        "nih": "60%"
+    }
+    
+    
+    
+    
+
+
+}, {
+    "soal3": {
+        "soal": "Pasangan Bilangan Pecahan yang senilai adalah…",
+        "a": "\\[\\frac{7}{18}\\] dan 0,48",
+        "b": "68% dan \\[\\frac{17}{25}\\]",
+        "c": "725% dan \\[\\frac{27}{40}\\]",
+        "d": "0,72 dan \\[\\frac{89}{125}\\]",
+        "benar": "b",
+        "nih": "68% dan \\[\\frac{17}{25}\\]"
+    }
+    
+   
+    
+    
+}, {
+    "soal4": {
+        "soal": "Pecahan \\[\\frac{3}{4}\\],\\[\\frac{2}{3}\\]  dan \\[\\frac{4}{5}\\] jika disusun dari yang terkecil adalah…",
+        "a": "\\[\\frac{4}{5}\\],\\[\\frac{3}{4}\\],\\[\\frac{2}{3}\\]",
+        "b": "\\[\\frac{2}{3}\\],\\[\\frac{3}{4}\\],\\[\\frac{4}{5}\\]",
+        "c": "\\[\\frac{2}{3}\\],\\[\\frac{4}{5}\\],\\[\\frac{3}{4}\\]",
+        "d": "\\[\\frac{3}{4}\\],\\[\\frac{2}{3}\\],\\[\\frac{4}{5}\\]",
+        "benar": "b",
+        "nih": "\\[\\frac{2}{3}\\],\\[\\frac{3}{4}\\],\\[\\frac{4}{5}\\]"
+    }
+    
+    
+    
+    
+ 	
+
+}, {
+    "soal5": {
+        "soal": "Bilangan Pecahan yang nilainya terbesar adalah…",
+        "a": "\\[\\frac{5}{8}\\]",
+        "b": "\\[\\frac{2}{3}\\]",
+        "c": "\\[\\frac{3}{5}\\]",
+        "d": "\\[\\frac{1}{2}\\]",
+        "benar": "b",
+        "nih": "\\[\\frac{2}{3}\\]"
+    }
+    
+    
+    
+    
+    
+}, {
+    "soal6": {
+        "soal": "Dari perbandingan dibawah ini yang benar adalah…",
+        "a": "\\[\\frac{2}{5}\\] < \\[\\frac{1}{4}\\]",
+        "b": "\\[\\frac{3}{4}\\] > \\[\\frac{4}{5}\\]",
+        "c": "\\[\\frac{2}{5}\\] < \\[\\frac{3}{4}\\]",
+        "d": "\\[\\frac{2}{3}\\] > \\[\\frac{4}{5}\\]",
+        "benar": "c",
+        "nih": "\\[\\frac{2}{5}\\] < \\[\\frac{3}{4}\\]"	
+        
+        
+        
+        
+        
+    }
+    
+
+}, {
+    "soal7": {
+        "soal": "Bilangan berikut yang nilainya terkecil adalah…",
+        "a": "1,2%",
+        "b": "13,2%",
+        "c": "\\[\\frac{1}{80}\\]",
+        "d": "0,013",
+        "benar": "a",
+        "nih": "1,2%"	
+        
+    }
+    
+    
+    
+    
+
+   	 
+
+}, {
+    "soal8": {
+        "soal": "Urutan pecahan berikut dari Bilangan terkecil adalah…",
+        "a": "\\[\\frac{2}{3}\\],\\[\\frac{3}{5}\\],\\[\\frac{4}{7}\\],\\[\\frac{1}{2}\\]",
+        "b": "\\[\\frac{1}{2}\\],\\[\\frac{4}{7}\\],\\[\\frac{3}{5}\\],\\[\\frac{2}{3}\\]",
+        "c": "\\[\\frac{1}{2}\\],\\[\\frac{2}{3}\\],\\[\\frac{4}{7}\\],\\[\\frac{3}{5}\\]",
+        "d": "\\[\\frac{2}{3}\\],\\[\\frac{1}{2}\\],\\[\\frac{4}{7}\\],\\[\\frac{3}{5}\\]",
+        "benar": "b",
+        "nih": "\\[\\frac{1}{2}\\],\\[\\frac{4}{7}\\],\\[\\frac{3}{5}\\],\\[\\frac{2}{3}\\]"
+        
+        
+
+
+
+
+    }
+  	
+
+}, {
+    "soal9": {
+        "soal": "Dari perbandingan di bawah ini yang benar adalah…",
+        "a": "\\[\\frac{2}{7}\\] < 28%",
+        "b": "125% > \\[\\frac{8}{6}\\]",
+        "c": "256% > \\[\\frac{1}{4}\\]",
+        "d": "\\[\\frac{1}{3}\\] < 32%",
+        "benar": "c",
+        "nih": "256% > \\[\\frac{1}{4}\\]"
+
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+}]

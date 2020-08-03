@@ -107,3 +107,18 @@ function cekkkk(){
     console.log(a.textContent);
     console.log(b.textContent);
     }
+
+    function cekjawaban1(){
+        var a = document.getElementById("A");
+        var b = document.getElementById("B");
+        var c = document.getElementById("C");
+
+        var jaw = document.getElementById("jawpc2")
+        if(a.textContent=="haruan" && b.textContent=="papuyu" && c.textContent=="jelawat"){
+            jaw.innerHTML = "urutan kamu tepat";
+        }else{
+            jaw.innerHTML = "urutan kamu masih salah";
+        }
+        console.log(a.textContent);
+        console.log(b.textContent);
+        }
