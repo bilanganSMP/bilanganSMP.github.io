@@ -36,9 +36,9 @@ var jsonData = [
     },
 
     {
-        "soal" : "\\[\\frac{7}{3} = \\frac{20}{6}\\]", 
+        "soal" : "2,2 = \\[\\frac{20}{32}\\]", 
         "jawaban" : "tidak",
-        "penjelasan" : "jawaban kamu salah<br>7 x 6 = 42<br>3 x 20 = 60<br>bernilai tidak sama"
+        "penjelasan" : "jawaban kamu salah<br>\\[\\frac{22}{10} = \\frac{20}{32}\\]<br>22 x 32 = 704<br>10 x 20 = 200<br>bernilai tidak sama"
     },
 
     {
@@ -65,6 +65,11 @@ var jsonData = [
   "penjelasan" : "jawaban kamu salah<br>3 x 72 = 216<br>6 x 36 = 216<br>bernilai sama"
 },
 
+{
+  "soal" : "20% = \\[\\frac{1}{5}\\]", 
+  "jawaban" : "senilai",
+  "penjelasan" : "jawaban kamu salah<br>\\[\\frac{20}{100} = \\frac{1}{5}\\]<br>20 x 5 = 100<br>100 x 1 = 100<br>bernilai sama"
+},
 
 
     

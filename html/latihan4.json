@@ -81,7 +81,7 @@
         "soal": "Bilangan Pecahan yang nilainya terbesar adalah…",
         "a": "\\[\\frac{5}{8}\\]",
         "b": "\\[\\frac{2}{3}\\]",
-        "c": "\\[\\frac{3}{5}\\]",
+        "c": "\\[\\frac{2}{4}\\]",
         "d": "\\[\\frac{1}{2}\\]",
         "benar": "b",
         "nih": "\\[\\frac{2}{3}\\]"
@@ -111,12 +111,12 @@
 }, {
     "soal7": {
         "soal": "Bilangan berikut yang nilainya terkecil adalah…",
-        "a": "1,2%",
-        "b": "13,2%",
+        "a": "1%",
+        "b": "13%",
         "c": "\\[\\frac{1}{80}\\]",
         "d": "0,013",
         "benar": "a",
-        "nih": "1,2%"	
+        "nih": "1%"	
         
     }
     

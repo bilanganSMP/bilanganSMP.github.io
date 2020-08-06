@@ -19,10 +19,10 @@ function shuffle(jsonDatabil) {
 
   var jsonDatabil = [
     {
-        "bil1" : "\\[\\frac{1}{2}\\]",
+        "bil1" : "10%",
         "bil2" : "\\[\\frac{2}{3}\\]",
         "jawaban" : "<",
-        "penjelasan" : "ingat \\[\\frac{a}{b}\\] < atau > \\[\\frac{c}{d}\\] ↔ a x d < atau > c x b<br> 1 x 3 <> 2 x 2 <br> 3 <> 4 <br> 3 < 4"
+        "penjelasan" : "10% = \\[\\frac{10}{100}\\] ingat \\[\\frac{a}{b}\\] < atau > \\[\\frac{c}{d}\\] ↔ a x d < atau > c x b<br> 10 x 3 <> 100 x 2 <br> 30 <> 200 <br> 30 < 200"
     },
 
     {
@@ -40,10 +40,10 @@ function shuffle(jsonDatabil) {
   },
 
   {
-    "bil1" : "\\[\\frac{3}{6}\\]",
-    "bil2" : "\\[\\frac{1}{9}\\]",
-    "jawaban" : ">",
-    "penjelasan" : "ingat \\[\\frac{a}{b}\\] < atau > \\[\\frac{c}{d}\\] ↔ a x d < atau > c x b<br> 3 x 9 <> 6 x 1 <br> 27 <> 6 <br> 27 > 6"
+    "bil1" : "35%",
+    "bil2" : "\\[\\frac{35}{150}\\]",
+    "jawaban" : "<",
+    "penjelasan" : "35% = \\[\\frac{35}{100}\\] ingat \\[\\frac{a}{b}\\] < atau > \\[\\frac{c}{d}\\] ↔ a x d < atau > c x b<br> 35 x 100 <> 35 x 150 <br> 3500 <> 5250 <br> 3500 < 5250"
 },
 
 {
