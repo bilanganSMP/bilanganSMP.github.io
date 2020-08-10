@@ -111,12 +111,12 @@
 }, {
     "soal7": {
         "soal": "Bu rita memiliki persediaan terigu sebanyak \\[1\\frac{1}{2} kg\\]. Sebanyak 0,35 kg digunakan untuk membuat apam barabai dan \\[\\frac{3}{4} kg\\] digunakan untuk membuat kue bingka. Sisa persediaan terigu bu rita adalah..",
-        "a": "0,52 kg",
-        "b": "0,53 kg",
-        "c": "0,55 kg",
-        "d": "0,56 kg",
+        "a": "0,2 kg",
+        "b": "0,3 kg",
+        "c": "0,4 kg",
+        "d": "0,5 kg",
         "benar": "c",
-        "nih": "0,55 kg"	
+        "nih": "0,4 kg"	
         
     }
     
@@ -130,11 +130,11 @@
     "soal8": {
         "soal": "Ibu berbelanja bahan kebutuhan pokok di pasar tradisional. Ibu membeli \\[4\\frac{1}{2} kg\\] gula pasir, \\[5\\frac{2}{5} kg\\] beras, dan \\[3\\frac{2}{10} kg\\] minyak goreng. Total berat belanjaan ibu adalah...",
         "a": "\\[13\\frac{2}{3} kg\\]",
-        "b": "\\[13\\frac{3}{5} kg\\]",
-        "c": "\\[13\\frac{3}{4} kg\\]",
+        "b": "\\[13\\frac{1}{10} kg\\]",
+        "c": "\\[13\\frac{3}{10} kg\\]",
         "d": "\\[13\\frac{7}{8} kg\\]",
         "benar": "b",
-        "nih": "\\[13\\frac{3}{5} kg\\]"
+        "nih": "\\[13\\frac{1}{5} kg\\]"
         
         
 
