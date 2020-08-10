@@ -246,6 +246,11 @@ td {
   padding: 2px;
 }
 
+.bg{
+  position: relative;
+display: inline-block;
+}
+
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
     position: absolute;

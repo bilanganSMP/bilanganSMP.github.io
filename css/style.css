@@ -698,6 +698,17 @@ mjx-container {
   width: 24px;
 }
 
+.jawabpecahanbenar1{
+  border: solid 2px green;
+  text-align: center;
+  
+}
+
+.jawabpecahansalah1{
+  border: solid 2px red;
+  text-align: center;
+}
+
 .tabel{
   font-size: 12px !important;
   text-align: left !important;
@@ -761,7 +772,10 @@ mjx-container {
   right: 0;
   z-index: 99;
 }
-
+.bg{
+  position: relative;
+display: inline-block;
+}
 /* Hide the items when the select box is closed: */
 .select-hide {
   display: none;
@@ -769,7 +783,18 @@ mjx-container {
 
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
-} 
+}
+
+.marimencoba{
+  border-color: blueviolet; border-style: solid; width: 100%; height: min-content; padding: 5px;
+}
+.bd{
+  text-align: center; border: none; border-bottom: solid 2px black; 
+}
+
+.bdbawah{
+  text-align: center;  border: none;  
+}
 @media (max-width : 992px) {
   .col-sm-2 {
     width: 100% !important;

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Bilangan
+        
+        </title>
+        <link rel="icon" type="image/png" href="../logo/ff.png">
+<link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/content.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/botstrap/bootstrap.min.css">
+  <script src="../css/botstrap/jquery.min.js"></script>
+  <script src="../css/botstrap/bootstrap.min.js"></script>
+  <script src="../js/link.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<div class="header">
+  <a href="../index.html"><img src="../logo/fff.png" alt="Home" style="width:200px;height:90px;border:0;"></a>
+  <div class="header-right">
+    <a class="active" href="#home">Materi</a>
+    <a href="KI.html">KI dan KD</a>
+    <a href="info.html">Info</a>
+  </div>
+  
+</div>
+
+
+    
+<div class="container-fluid">    
+  <div class="row content">
+   <div class="col-sm-10 text-center" style="height: 50px; border-style: double; border-color: #8b2f97;">
+    <a href="#materi2.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
+    <a href="#materi1.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
+    
+   </div>
+   <div class="col-sm-10 contentt" id="tengah">
+     <div class="tengah">
+    
+     <div class="inputbio">
+      Nama  =<input placeholder="masukan nama" class="inputtbio" id="nama" type="text"><br><br>
+     Kelas  =<div class="custom-select" style="width:150px; display: inline-block;">
+      <select id="kelas">
+        <option value="0">Kelas:</option>
+        <option value="7A">7A</option>
+        <option value="7B">7B</option>
+        <option value="7C">7C</option>
+        <option value="7D">7D</option>
+        <option value="7E">7E</option>
+        <option value="7F">7F</option>
+        <option value="7G">7G</option>
+        <option value="7H">7H</option>
+        <option value="7I">7I</option>
+      </select>
+    </div>
+    <br><br>Sekolah =<input placeholder="masukan sekolah" class="inputtbio" id="sekolah" type="text"><br>
+    
+     </div>
+     <div class="bawahkuis"><button class="tombolsoal" onclick="mulaiaja()">Mulai</button></div>
+    </div>
+   </div>
+   <div class="col-sm-7 hilang kiri" id="kiri" style="padding: 30px;">
+    
+     
+
+
+  
+  </div>
+  <div class="col-sm-3 hilang" id="kanan" style="padding: 30px;">
+    <div class="bg_nav">
+      <div class="bg_full">
+          <p class="text">Nomor Soal</p>
+      </div>
+      <div class="bg_soal">
+          <div class="soal_nav belum">
+              <p class="text fontbesar ">1</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">2</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">3</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">4</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">5</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">6</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">7</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">8</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">9</p>
+          </div>
+          <div class="soal_nav belum">
+              <p class="text fontbesar">10</p>
+          </div>
+          <div class="clear"></div>
+          <div class="ket fontsedang">
+              <p>Ket:</p>
+              <p><span class="belum">Putih</span> = Belum dijawab</p>
+              <p><span class="sudah">Ungu</span> = di jawab</p>
+          </div>
+      </div>
+
+  </div>
+  <div class="selesai">SELESAI</div>
+  
+
+</div>
+<div id="hasiljawaban" class="hilang col-sm-10 text-center">
+  <div id="skorr" style="border: 5px solid rgb(165, 21, 165); width: 1099px; height: 500px; font-size: 36px; font-family: 'Lemonada', cursive;">
+    <br><br><img id="emot1" src="../logo/happy.png" style="width: 200px; height: 200px;">
+    <div id="skor">
+    
+    </div>
+    <a href="tambahkurangpecahan.html" style="text-decoration: none; color: white;"><button id="selesai" class="hilang">Selesai</button></a>
+    <a href="latihan5.html" style="text-decoration: none; color: white;"><button id="remedial" class="hilang">Remedial</button></a>
+      
+  </div>
+</div>
+  </div>
+  
+
+</div>
+
+</div>
+ 
+ 
+  
+
+<footer class="container-fluid text-center">
+  <p>@rizaldi aprilian</p>
+</footer>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+<script src="../js/test.js"></script>
+
+<script src="../js/mencobai.js"></script>
+<script src="../js/cekcoba.js"></script>
+<script src="../js/shuffle.js"></script>
+<script src="../js/javascript.js"></script>
+    <script src="../js/tambahkuranglatihan.js"></script>
+</body>
+</html>
