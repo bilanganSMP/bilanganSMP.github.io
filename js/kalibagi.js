@@ -283,17 +283,31 @@ function buat() {
 }
 
 function cek(){
-    var a = document.getElementById("pcatas1");
-    var b = document.getElementById("pcbawah1");
+    var a = document.getElementById("soal2");
     var c = document.getElementById("jawaban2");
     
     if(a.value==""&&b.value==""){
         window.alert("jawaban anda kosong")
     }
-    else if(a.value=="5"&&b.value=="12"){
+    else if(a.value=="1,55" || a.value=="1,5" || a.value=="1.5" || a.value=="1.55"){
         c.innerHTML="jawaban anda benar"
     }else{
-        c.innerHTML="jawaban anda salah<br>penyelesaian:<br>\\[1-\\frac{1}{3}-\\]25%<br><br>=\\[\\frac{3}{3} - \\frac{1}{3} - \\frac{25:25}{100:25}\\]<br><br>=\\[\\frac{3}{3} - \\frac{1}{3} - \\frac{1}{4}\\]<br><br>=\\[\\frac{3 \\times 4}{3 \\times 4} - \\frac{1 \\times 4}{3 \\times 4} - \\frac{1 \\times 3}{4 \\times 3}\\]<br><br>=\\[\\frac{12}{12} - \\frac{4}{12} - \\frac{3}{12} = \\frac{5}{12}\\]"
+        c.innerHTML="jawaban anda salah<br>penyelesaian:<br>panjang kain sasirangan yang diterima setiap teman rahma<br><Br>\\[6\\frac{1}{5} : 4\\]<br><br>=\\[\\frac{31}{5} \\times \\frac{1}{4}\\]<br><br>=\\[\\frac{31 \\times 1}{5 \\times 4} = \\frac{31}{20}\\]<br><br>=\\[1,55\\] meter"
+    }
+    MathJax.typeset()
+}
+
+function cek1(){
+    var a = document.getElementById("soal3");
+    var c = document.getElementById("jawaban3");
+    
+    if(a.value==""&&b.value==""){
+        window.alert("jawaban anda kosong")
+    }
+    else if(a.value=="3,9" || a.value=="3.9"){
+        c.innerHTML="jawaban anda benar"
+    }else{
+        c.innerHTML="jawaban anda salah<br>penyelesaian:<br>panjang kayu ulin<br><Br>\\[0,65 \\times 6 = \\frac{65}{100} \\times 6\\]<br><br>=\\[\\frac{65 \\times 6}{100}\\]<br><br>=\\[\\frac{390}{100} = 3,9\\] meter"
     }
     MathJax.typeset()
 }
