@@ -48,7 +48,7 @@
 
 }, {
     "soal3": {
-        "soal": "nilai dari \\[6\\frac{3}{8} : 1,7 : 255\\]% =... ",
+        "soal": "nilai dari \\[6\\frac{3}{8} : 1,7 : 225\\]% =... ",
         "a": "1,56",
         "b": "1,32",
         "c": "1,67",
@@ -110,13 +110,13 @@
 
 }, {
     "soal7": {
-        "soal": "Andi memiliki seutas tali. Ia memotong \\[\\frac{2}{3}\\] tali tersebut. Jika panjang potongan tali semula 1,24 meter, panjang tali sekarang adalah…",
-        "a": "1,36 meter",
-        "b": "1,63 meter",
-        "c": "1,68 meter",
-        "d": "1,86 meter",
+        "soal": "Ibnu memiliki  \\[1\\frac{1}{5}\\] liter es lahang, es lahang tersebut akan dimasukan ke dalam gelas. setiap gelas berisi  \\[\\frac{1}{5}\\] liter. gelas yang dibutuhkan Ibnu sebanyak…",
+        "a": "3 gelas",
+        "b": "4 gelas",
+        "c": "5 gelas",
+        "d": "6 gelas",
         "benar": "d",
-        "nih": "1,86 meter"	
+        "nih": "6 gelas"	
         
     }
     
