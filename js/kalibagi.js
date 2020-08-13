@@ -261,9 +261,13 @@ function cekjawaban(){
         window.alert("jawaban anda kosong")
     }
     else if(a.value==jsonData[0].atas && b.value==jsonData[0].bawah){
+        jawab.classList.remove("hilang")
+        jawab.classList.add("kolompembahasan")
         jawab.innerHTML=jsonData[0].benar;
     }else{
         jawab.innerHTML=jsonData[0].salah;
+        jawab.classList.remove("hilang")
+        jawab.classList.add("kolompembahasan")
     }
 MathJax.typeset()
 }
@@ -274,6 +278,8 @@ function buat() {
     var a = document.getElementById("pcatas");
     var b = document.getElementById("pcbawah");
     y.innerHTML = "";
+    y.classList.add("hilang")
+    y.classList.remove("kolompembahasan")
     a.value = "";
     b.value = "";
     jsonData = shuffle(jsonData);
