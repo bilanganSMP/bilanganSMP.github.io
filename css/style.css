@@ -825,6 +825,22 @@ display: inline-block;
 .MJX-TEX{
 font-size: 18px !important;
 }
+
+.inputpertanyaan::-webkit-input-placeholder{
+  color: white;
+}
+
+.inputpertanyaan:-webkit-input-placeholder{
+  color: white;
+}
+
+.inputpertanyaan:-moz-placeholder{
+  color: white;
+}
+
+.inputpertanyaan::-moz-placeholder{
+  color: white;
+}
 @media (max-width : 992px) {
   .col-sm-2 {
     width: 100% !important;
