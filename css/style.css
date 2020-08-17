@@ -623,7 +623,7 @@ font-family: 'Saira Condensed', sans-serif;
 }
 
 .nilaisiswa{
-  background-color: #562349;
+  background-color: #6b355e;
   color: white;
   font-size: 20px;
   font-family: 'Saira Condensed', sans-serif;
@@ -635,7 +635,7 @@ font-family: 'Saira Condensed', sans-serif;
 }
 
 .tengah{
-padding-left: 200px;
+padding-left: 300px;
 padding-top: 100px;
 }
 
@@ -841,6 +841,10 @@ font-size: 18px !important;
 .inputpertanyaan::-moz-placeholder{
   color: white;
 }
+
+.gasanhp{
+  font-size: 36px;
+}
 @media (max-width : 992px) {
   .col-sm-2 {
     width: 100% !important;
@@ -850,6 +854,13 @@ font-size: 18px !important;
   }
   .col-sm-10{
     width: 100% !important;
+  }
+
+  .col-sm-12{
+    width: 100% !important;
+  }
+  .gasanhp{
+    font-size: 20px;
   }
 #skorr{
   width: 100% !important;
@@ -937,6 +948,8 @@ padding-bottom: 20px;
   .tombol1{
     padding-left: 40px;
   }
- 
+ .tombol2{
+
+ }
 }
 

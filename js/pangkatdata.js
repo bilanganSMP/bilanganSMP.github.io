@@ -47,6 +47,18 @@ var jsonData = [
         "jawaban" : "16",
         "penjelasan" : "jawaban kamu salah<br>\\[(-2) \\times (-2) \\times (-2) \\times (-2) = 16\\]"
     },
+
+    {
+      "soal" : "\\[(2^2)^3\\]", 
+      "jawaban" : "64",
+      "penjelasan" : "jawaban kamu salah<br>\\[2^{2\\times3} = 2^6 = 64\\]"
+  },
+
+  {
+    "soal" : "\\[(3^2)^4\\]", 
+    "jawaban" : "6561",
+    "penjelasan" : "jawaban kamu salah<br>\\[3^{2\\times4} = 3^8 = 6561\\]"
+},
     
 ]
 
@@ -75,69 +87,65 @@ var jsonData = [
   }
 var jsonData1 = [
     {
-        "soal" : "\\[\\frac{100}{200}\\]", 
-        "atas" : "1",
-        "bawah" : "2",
-        "penjelasan" : "jawaban kamu salah<br>\\[\\frac{100}{200}=\\frac{100:100}{200:100} = \\frac{1}{2}\\]"
+        "soal" : "\\[5^2 + (-5)^3\\]", 
+        "jawaban" : "-100",
+        "penjelasan" : "jawaban kamu salah<br>\\[5 \\times 5 + (-5) \\times (-5) \\times (-5)\\]<br><br>\\[= 25 + (-125) = -100\\]"
     },
 
     {
-        "soal" : "\\[\\frac{6}{36}\\]", 
-        "atas" : "1",
-        "bawah" : "6",
-        "penjelasan" : "jawaban kamu salah<br>\\[\\frac{6}{36}=\\frac{6:6}{36:6} = \\frac{1}{6}\\]"
-    },
-
-    {
-      "soal" : "\\[\\frac{32}{64}\\]", 
-      "atas" : "1",
-      "bawah" : "2",
-      "penjelasan" : "jawaban kamu salah<br>\\[\\frac{32}{64}=\\frac{32:32}{64:32} = \\frac{1}{2}\\]"
+      "soal" : "\\[(-4)^2 - 4^3\\]", 
+      "jawaban" : "-48",
+      "penjelasan" : "jawaban kamu salah<br>\\[(-4) \\times (-4) - 4 \\times 4 \\times 4\\]<br><br>\\[= 14 - 64 = -48\\]"
   },
 
   {
-    "soal" : "\\[\\frac{45}{60}\\]", 
-    "atas" : "3",
-    "bawah" : "4",
-    "penjelasan" : "jawaban kamu salah<br>\\[\\frac{45}{60}=\\frac{45:15}{60:15} = \\frac{3}{4}\\]"
+    "soal" : "\\[(-2)^3 \\times 3^2 + (-5)^2\\]", 
+    "jawaban" : "-47",
+    "penjelasan" : "jawaban kamu salah<br>\\[=(-2) \\times (-2) \\times (-2) \\times  3 \\times 3 +\\]\\[ (-5) \\times (-5)\\]<br><br>\\[= -8 \\times 9 + 25 = -72 + 25 = -47\\]"
 },
 
 {
-  "soal" : "\\[\\frac{12}{28}\\]", 
-  "atas" : "3",
-  "bawah" : "7",
-  "penjelasan" : "jawaban kamu salah<br>\\[\\frac{12}{28}=\\frac{12:4}{28:4} = \\frac{3}{7}\\]"
+  "soal" : "\\[-3^2 - 4^5 : 2^7\\]", 
+  "jawaban" : "-17",
+  "penjelasan" : "jawaban kamu salah<br>\\[=-(3 \\times 3) - 4 \\times 4 \\times 4 \\times 4 \\times 4 : 2 \\times \\]\\[2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\]<br><br>\\[= -9 - 1024 : 128 = -9 - 8 = -17\\]"
+},
+  
+{
+  "soal" : "\\[4^3 \\times 4^2\\]", 
+  "jawaban" : "1024",
+  "penjelasan" : "jawaban kamu salah<br>\\[4^{3+2} = 4^5 = 1024\\]"
 },
 
 {
-  "soal" : "20%", 
-  "atas" : "1",
-  "bawah" : "5",
-  "penjelasan" : "jawaban kamu salah<br>20% = \\[\\frac{20}{100}=\\frac{20:20}{100:20} = \\frac{1}{5}\\]"
+  "soal" : "\\[2^5 \\times 2^6\\]", 
+  "jawaban" : "2048",
+  "penjelasan" : "jawaban kamu salah<br>\\[2^{5+8} = 2^{11} = 2048\\]"
 },
 
 {
-  "soal" : "0,15", 
-  "atas" : "3",
-  "bawah" : "20",
-  "penjelasan" : "jawaban kamu salah<br>0,15 = \\[\\frac{15}{100}=\\frac{15:5}{100:5} = \\frac{3}{20}\\]"
+  "soal" : "\\[3^8 : 3^6\\]", 
+  "jawaban" : "9",
+  "penjelasan" : "jawaban kamu salah<br>\\[3^{8-6} = 3^{2} = 9\\]"
 },
 
 {
-  "soal" : "1,20", 
-  "atas" : "6",
-  "bawah" : "5",
-  "penjelasan" : "jawaban kamu salah<br>1,20 = \\[\\frac{120}{100}=\\frac{120:20}{100:20} = \\frac{6}{5}\\]"
+  "soal" : "\\[2^{10} : 2^5\\]", 
+  "jawaban" : "32",
+  "penjelasan" : "jawaban kamu salah<br>\\[2^{10-5} = 2^{5} = 32\\]"
 },
 
 {
-  "soal" : "45%", 
-  "atas" : "9",
-  "bawah" : "20",
-  "penjelasan" : "jawaban kamu salah<br>45% = \\[\\frac{45}{100}=\\frac{45:5}{100:5} = \\frac{9}{20}\\]"
-}
+  "soal" : "\\[2^{10} : 2^8 \\times 2^2\\]", 
+  "jawaban" : "16",
+  "penjelasan" : "jawaban kamu salah<br>\\[2^{10-8+2} = 2^{4} = 16\\]"
+},
 
-    
+{
+  "soal" : "\\[5^3 \\times 5^5 : 5^4\\]", 
+  "jawaban" : "125",
+  "penjelasan" : "jawaban kamu salah<br>\\[5^{3+5-4} = 2^{4} = 125\\]"
+},
+
 ]
 
   jsonData1 = shuffle1(jsonData1);
