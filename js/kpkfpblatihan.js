@@ -349,7 +349,7 @@ console.log(namavariabel);
 }
 
 
-dat.open('GET', 'latihan7.json', true);
+dat.open('GET', 'latihan8.json', true);
 dat.send();
 
 
@@ -404,7 +404,7 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilaisubbab7remedial/"+counter);
+    let db= firebase.database().ref("nilaisubbab8/"+counter);
     db.set(task);
 
 }

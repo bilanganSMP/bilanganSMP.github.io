@@ -41,7 +41,7 @@ function createTask(nama,kelas){
 }
 
 function readlah(){
-var task= firebase.database().ref("nilaisubbab6/");
+var task= firebase.database().ref("nilaisubbab7/");
 task.orderByChild("kelas").on("child_added",function(data){
     var taskvalue = data.val();
     document.getElementById("namaTR").innerHTML+=`

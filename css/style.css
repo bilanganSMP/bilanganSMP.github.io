@@ -729,6 +729,7 @@ mjx-container {
   font-size: 14px !important;
   text-align: center;
   padding: 5px;
+  vertical-align: middle;
 }
 
  /* The container must be positioned relative: */
