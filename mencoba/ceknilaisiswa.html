@@ -12,19 +12,35 @@
 </head>
 
 <body class="nilaisiswa" onload="readlah()" style="text-align: -moz-center;">
-
+  Kelas  =<div class="custom-select" style="width:150px; display: inline-block;">
+    <select id="kelas">
+      <option value="0">Kelas:</option>
+      <option value="7A">7A</option>
+      <option value="7B">7B</option>
+      <option value="7C">7C</option>
+      <option value="7D">7D</option>
+      <option value="7E">7E</option>
+      <option value="7F">7F</option>
+      <option value="7G">7G</option>
+      <option value="7H">7H</option>
+      <option value="7I">7I</option>
+    </select>
+  </div>
+  <button class="tombolsoal" id="cek" onclick="cari()">Cari</button>
+  
     <div style="width: 80%; padding-top: 20px;">
-        <table class="table table-bordered">
+      
+        <table class="table tabelnilai">
             <thead>
-              <tr>
-                <th>asal sekolah</th>
-                <th>nama</th>
-                <th>kelas</th>
-                <th>nilai</th>
-                <th>waktu pengerjaan</th>
+              <tr class="trnilai">
+                <th class="trnilai">asal sekolah</th>
+                <th class="trnilai">nama</th>
+                <th class="trnilai">kelas</th>
+                <th class="trnilai">nilai</th>
+                <th class="trnilai">waktu pengerjaan</th>
               </tr>
             </thead>
-            <tbody id="namaTR">
+            <tbody id="namaTR" class="trnilai">
              
               
             </tbody>
@@ -33,6 +49,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
     <script src="script.js"></script>
+    <script src="../js/shuffle.js"></script>
 </body>
 
 </html>

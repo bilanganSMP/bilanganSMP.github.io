@@ -15,7 +15,9 @@
   <script src="../css/botstrap/jquery.min.js"></script>
   <script src="../css/botstrap/bootstrap.min.js"></script>
   <script src="../js/link.js"></script>
-  
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
 </head>
 <body>
 <div class="header">
@@ -28,92 +30,39 @@
   
 </div>
 
-<div class="sidenav col-sm-2 navsamping">
-  <button class="dropdown-btn">mengenal bilangan bulat</button>
-  <div class="dropdown-container">
-    <a href="#materi1.html">Mengenal dan Membandingkan Bilangan Bulat</a>
-    <a href="latihan1.html">kuis</a>
-    
-  </div>
 
-  <button class="dropdown-btn">Penjumlahan Dan Pengurangan bilangan bulat</button>
-    <div class="dropdown-container">
-      <a href="#materi2.html">Penjumlahan bilangan bulat</a>
-      <a href="#materi3.html">Pengurangan bilangan bulat </a>      
-      <a href="#latihan2.html">kuis</a>
-      
-    </div>
-
-    <button class="dropdown-btn">perkalian dan pembagian bilangan bulat</button>
-    <div class="dropdown-container">
-      <a href="#">perkalian bilangan bulat</a>
-      <a href="#">pembagian bilangan bulat</a>
-      <a href="#">kuis</a>
-      
-    </div>
-
-    <button class="dropdown-btn">mengenal dan membandingkan bilangan pecahan</button>
-    <div class="dropdown-container">
-      <a href="#">mengenal pecahan</a>
-      <a href="#">membandingkan pecahan</a>
-      <a href="#">kuis</a>
-      
-    </div>
-
-    <button class="dropdown-btn">Penjumlahan Dan Pengurangan bilangan pecahan</button>
-    <div class="dropdown-container">
-      <a href="#">Penjumlahan bilangan pecahan</a>
-      <a href="#">Pengurangan bilangan pecahan </a>      
-      <a href="#">kuis</a>
-      
-    </div>
-
-    <button class="dropdown-btn">perkalian dan pembagian bilangan bulat</button>
-    <div class="dropdown-container">
-      <a href="#">perkalian bilangan bulat</a>
-      <a href="#">Pengurangan bilangan bulat </a>      
-      <a href="#">kuis</a>
-      
-    </div>
-
-    <button class="dropdown-btn">mengenal bilangan berpangkat positif</button>
-    <div class="dropdown-container">
-      <a href="#">bilangan berpangkat</a>     
-      <a href="#">kuis</a>
-      
-    </div>
-
-    <button class="dropdown-btn">FPB dan KPK</button>
-    <div class="dropdown-container">
-      <a href="#">FPB</a>
-      <a href="#">KPK</a>      
-      <a href="#">kuis</a>
-      
-    </div>
-
-    <a href="#">Latihan</a>
-</div>
     
 <div class="container-fluid">    
   <div class="row content">
-   <div class="col-sm-10 text-center" style="height: 50px; border-style: double; border-color: #8b2f97;">
-    <a href="#materi2.html"><img src="../logo/right.png" style="float: right; height: 90%;"></a>
-    <a href="#materi1.html"><img src="../logo/left.png" style="float: left; height: 90%;"></a>
-    
-   </div>
-   <div class="col-sm-10 contentt" id="tengah">
-     <div class="tengah">
-    
+  
+   <div class="col-sm-12 contentt" id="tengah">
+    <div class="text-center gasanhp" style="font-family: 'Yanone Kaffeesatz', sans-serif;">Kuis Pertambahan dan pengurangan Bilangan Bulat</div> 
+    <div class="tengah">
+       
+      
      <div class="inputbio">
       Nama  =<input placeholder="masukan nama" class="inputtbio" id="nama" type="text"><br><br>
-     Kelas  =<input placeholder="masukan kelas Contoh: 7a" class="inputtbio" id="kelas" type="text"><br><br>
-    Sekolah =<input placeholder="masukan sekolah" class="inputtbio" id="sekolah" type="text"><br>
+     Kelas  =<div class="custom-select" style="width:150px; display: inline-block;">
+      <select id="kelas">
+        <option value="0">Kelas:</option>
+        <option value="7A">7A</option>
+        <option value="7B">7B</option>
+        <option value="7C">7C</option>
+        <option value="7D">7D</option>
+        <option value="7E">7E</option>
+        <option value="7F">7F</option>
+        <option value="7G">7G</option>
+        <option value="7H">7H</option>
+        <option value="7I">7I</option>
+      </select>
+    </div>
+    <br><br>Sekolah =<input placeholder="masukan sekolah" class="inputtbio" id="sekolah" type="text"><br>
     
      </div>
      <div class="bawahkuis"><button class="tombolsoal" onclick="mulaiaja()">Mulai</button></div>
     </div>
    </div>
-   <div class="col-sm-7 hilang kiri" id="kiri" style="padding: 30px;">
+   <div class="col-sm-9 hilang kiri" id="kiri" style="padding: 30px;">
     
      
 
@@ -169,16 +118,18 @@
   
 
 </div>
-<div id="hasiljawaban" class="hilang col-sm-10 text-center">
-  <div id="skorr" style="border: 5px solid rgb(165, 21, 165); width: 1099px; height: 500px; font-size: 36px; font-family: 'Lemonada', cursive;">
+<div id="hasiljawaban" class="hilang col-sm-12 text-center">
+  <div id="skorr" style="border: 5px solid rgb(165, 21, 165); width: 100%; height: 500px; font-size: 36px; font-family: 'Lemonada', cursive;">
     <br><br><img id="emot1" src="../logo/happy.png" style="width: 200px; height: 200px;">
     <div id="skor">
     
     </div>
-    <a href="materi2.html" style="text-decoration: none; color: white;"><button id="selesai" class="tombolsoal1">Selesai</button></a>
+    <a href="materi2.html" style="text-decoration: none; color: white;"><button id="selesai" class="hilang">Selesai</button></a>
+    <a href="latihan2.html" style="text-decoration: none; color: white;"><button id="remedial" class="hilang">Ulang</button></a>
       
   </div>
 </div>
+
   </div>
   
 

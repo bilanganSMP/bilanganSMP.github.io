@@ -255,7 +255,7 @@ console.log(namavariabel);
             let sarat = 0;
 
             for (let t = 0; t < jwbs.length; t++) {
-                if ((soal_navnya[t].className.indexOf('sudah') == 10)) {
+                if ((soal_navnya[t].className.indexOf('sudah') == 20)) {
                     sarat = sarat + 1;
                 }
             }
@@ -349,7 +349,7 @@ console.log(namavariabel);
 }
 
 
-dat.open('GET', 'latihan4.json', true);
+dat.open('GET', 'ulangan.json', true);
 dat.send();
 
 
@@ -404,7 +404,7 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilaisubbab4sebelumujian/"+counter);
+    let db= firebase.database().ref("nilaisubbab8/"+counter);
     db.set(task);
 
 }

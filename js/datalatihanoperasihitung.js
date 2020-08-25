@@ -295,7 +295,12 @@ console.log(namavariabel);
                 }
                
                 if (hasilakhir<75){
-                    document.getElementById("emot1").src = "../logo/sad.png";   
+                    document.getElementById("emot1").src = "../logo/sad.png";
+                    document.getElementById("remedial").classList.add("tombolsoal");
+                    document.getElementById("remedial").classList.remove("hilang");  
+                }else{
+                    document.getElementById("selesai").classList.add("tombolsoal");
+                    document.getElementById("selesai").classList.remove("hilang"); 
                 }
 				let kitahasil = document.getElementById('kiri');
 				let kitahasil1 = document.getElementById('kanan');
@@ -399,7 +404,7 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilaisubbab2/"+counter);
+    let db= firebase.database().ref("nilaisubbab2sebelumujian/"+counter);
     db.set(task);
 
 }
@@ -424,13 +429,14 @@ function mulaiaja(){
     namavariabel = document.getElementById("nama").value;
     kelasvariabel = document.getElementById("kelas").value;
     sekolahvariabel = document.getElementById("sekolah").value;
-if(kelasvariabel==""||namavariabel==""||sekolahvariabel==""){
+    MathJax.typeset()
+if(kelasvariabel=="0"||namavariabel==""||sekolahvariabel==""){
     window.alert("isikan nama, kelas dan asal sekolah")
 }else{
     a.className = a.className.replace("contentt","hilang");
     b.className = b.className.replace("hilang","contentt");
     c.className = c.className.replace("hilang","contentt");
-    
-    console.log(namavariabel);
+    console.log(kelasvariabel);
+    MathJax.typeset()
 }
 }

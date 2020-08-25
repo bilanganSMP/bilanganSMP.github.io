@@ -40,20 +40,47 @@ function createTask(nama,kelas){
 
 }
 
+// function readlah(){
+// var task= firebase.database().ref("nilaisubbab8/");
+// task.orderByChild("kelas").on("child_added",function(data){
+//     var taskvalue = data.val();
+//     document.getElementById("namaTR").innerHTML+=`
+//     <tr class="trnilai">
+//     <td class="trnilai">${taskvalue.sekolah}</td>
+//     <td class="trnilai">${taskvalue.nama}</td>
+//     <td class="trnilai">${taskvalue.kelas}</td>
+//     <td class="trnilai">${taskvalue.nilai}</td>
+//     <td class="trnilai">${taskvalue.waktu}</td>
+//     </tr>
+//     `
+    
+// });
+
+// }
+var carikelas = document.getElementById("kelas").value
+carikelas = "";
 function readlah(){
-var task= firebase.database().ref("nilaisubbab7/");
-task.orderByChild("kelas").on("child_added",function(data){
+var task= firebase.database().ref("nilaisubbab8/");
+task.orderByChild("kelas").equalTo(carikelas).on("child_added",function(data){
     var taskvalue = data.val();
     document.getElementById("namaTR").innerHTML+=`
-    <tr>
-    <td>${taskvalue.sekolah}</td>
-    <td>${taskvalue.nama}</td>
-    <td>${taskvalue.kelas}</td>
-    <td>${taskvalue.nilai}</td>
-    <td>${taskvalue.waktu}</td>
+    <tr class="trnilai">
+    <td class="trnilai">${taskvalue.sekolah}</td>
+    <td class="trnilai">${taskvalue.nama}</td>
+    <td class="trnilai">${taskvalue.kelas}</td>
+    <td class="trnilai">${taskvalue.nilai}</td>
+    <td class="trnilai">${taskvalue.waktu}</td>
+    
     </tr>
     `
     
 });
 
+}
+
+function cari(){
+  document.getElementById("namaTR").innerHTML="";
+  carikelas = document.getElementById("kelas").value
+  console.log(carikelas)
+  readlah();
 }

@@ -623,11 +623,19 @@ font-family: 'Saira Condensed', sans-serif;
 }
 
 .nilaisiswa{
-  background-color: #6b355e;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
   font-size: 20px;
   font-family: 'Saira Condensed', sans-serif;
  
+}
+
+.tabelnilai{
+  border: 2px solid violet !important;
+}
+
+.trnilai{
+  border: 2px solid violet !important;
 }
 
 .nilaisiswatabel{

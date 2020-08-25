@@ -404,7 +404,7 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilaisubbab6remedial/"+counter);
+    let db= firebase.database().ref("nilaisubbab6sebelumujian/"+counter);
     db.set(task);
 
 }
