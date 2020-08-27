@@ -1,12 +1,12 @@
 [{
     "soal0": {
-        "soal": "Bilangan-bilangan berikut yang memiliki faktor  sebanyak 8 adalah…",
-        "a": "32",
-        "b": "36",
-        "c": "40",
-        "d": "48",
+        "soal": "Perhatikan urutan Bilangan-bilangan bulat berikut. Urutan Bilangan dari terkecil yang benar adalah….",
+        "a": "-3242, -2134, 4311, 1223",
+        "b": "3121, 3131, 1112, 4412",
+        "c": "-4123, -3212, 2342, 4231",
+        "d": "-3122, -3121, -2122, -4313",
         "benar": "c",
-        "nih": "40"
+        "nih": "-4123, -3212, 2342, 4231"
     }
     
     
@@ -15,13 +15,13 @@
 
 }, {
     "soal1": {
-        "soal": "Bilangan 90 dan 96 memiliki faktor persekutuan sebanyak…",
-        "a": "3",
-        "b": "4",
-        "c": "5",
-        "d": "6",
-        "benar": "b",
-        "nih": "4"
+        "soal": "Diketahui m = 32 – 21 + 2 dan n = 73 + (-70) – (-30), nilai m – n adalah…",
+        "a": "-20",
+        "b": "20",
+        "c": "25",
+        "d": "-25",
+        "benar": "a",
+        "nih": "-20"
     }
     
     
@@ -32,13 +32,13 @@
 
 }, {
     "soal2": {
-        "soal": "FPB dari 128, 144, dan 160 adalah… ",
-        "a": "24",
-        "b": "20",
-        "c": "18",
-        "d": "16",
-        "benar": "d",
-        "nih": "16"
+        "soal": "Di sebuah gudang buah terdapat 220 karung buah langsat . Setiap karung beratnya 7 kg. Berapa kg langsat yang ada di gudang itu?",
+        "a": "1230 kg",
+        "b": "1768 kg",
+        "c": "1540 kg",
+        "d": "1212 kg",
+        "benar": "c",
+        "nih": "1540 kg"
     }
     
     
@@ -48,13 +48,18 @@
 
 }, {
     "soal3": {
-        "soal": "Kelompok bilangan berikut yang memiliki FPB 14 adalah…",
-        "a": "105, 135, dan 150",
-        "b": "112, 126 dan 140",
-        "c": "110, 130 dan 189",
-        "d": "105, 147 dan 189",
+        "soal": "Dari perbandingan dibawah ini yang benar adalah…",
+        "a": "\\[\\frac{1}{2}\\] > \\[\\frac{3}{4}\\]",
+        "b": "\\[40\\]% < \\[\\frac{4}{3}\\]",
+        "c": "\\[0,32\\] > \\[\\frac{5}{3}\\]",
+        "d": "\\[2\\frac{1}{2}\\] < \\[\\frac{4}{5}\\]",
         "benar": "b",
-        "nih": "112, 126 dan 140"
+        "nih": "\\[40\\]% < \\[\\frac{4}{3}\\]"	
+        
+        
+        
+        
+        
     }
     
    
@@ -62,13 +67,13 @@
     
 }, {
     "soal4": {
-        "soal": "Kelompok bilangan berikut yang memiliki KPK 2550 adalah…",
-        "a": "50 dan 102",
-        "b": "50 dan 104",
-        "c": "30 dan 80",
-        "d": "40 dan 80",
+        "soal": "diketahui nilai p = 240, q = -5, r = -60 dan s = 5. Hasil dari (p : q) : (r : s) =…",
+        "a": "4",
+        "b": "-4",
+        "c": "6",
+        "d": "-6",
         "benar": "a",
-        "nih": "50 dan 102"
+        "nih": "4"
     }
     
     
@@ -78,13 +83,13 @@
 
 }, {
     "soal5": {
-        "soal": "KPK dari 15, 20 dan 35 adalah…",
-        "a": "520",
-        "b": "420",
-        "c": "430",
-        "d": "530",
+        "soal": "Pasangan Bilangan Pecahan yang senilai adalah…",
+        "a": "\\[30\\]% dan \\[\\frac{1}{4}\\]",
+        "b": "\\[5\\frac{3}{4}\\] dan 5,75",
+        "c": "120% dan \\[12\\frac{3}{4}\\]",
+        "d": "\\[3\\frac{2}{4}\\] dan \\[\\frac{1}{2}\\]",
         "benar": "b",
-        "nih": "420"
+        "nih": "\\[5\\frac{3}{4}\\] dan 5,75"
     }
     
     
@@ -93,13 +98,13 @@
     
 }, {
     "soal6": {
-        "soal": "Mira memiliki 60 buah kasturi, 96 buah langsat, dan 24 buah ramania. Ia ingin membagikan buah kepada teman-temannya dengan jumlah sama banyak.jumlah teman mira yang mendapatkan buah dengan jumlah yang sama banyak adalah…",
-        "a": "10",
-        "b": "11",
-        "c": "12",
-        "d": "13",
+        "soal": "Pecahan \\[\\frac{1}{2},\\frac{4}{6}\\] dan \\[\\frac{2}{5}\\] jika disusun dari yang terkecil adalah…",
+        "a": "\\[\\frac{2}{5},\\frac{4}{6},\\frac{1}{2}\\]",
+        "b": "\\[\\frac{1}{2},\\frac{2}{5},\\frac{4}{6}\\]",
+        "c": "\\[\\frac{2}{5},\\frac{1}{2},\\frac{4}{6}\\]",
+        "d": "\\[\\frac{4}{6},\\frac{2}{5},\\frac{1}{2}\\]",
         "benar": "c",
-        "nih": "12"	
+        "nih": "\\[\\frac{2}{5},\\frac{1}{2},\\frac{4}{6}\\]"	
         
         
         
@@ -108,86 +113,170 @@
     }
     
 
-}, {
+},
+
+{
     "soal7": {
-        "soal": "Dalam rangka HUT Kemerdekaan RI, panitia mendapat sumbangan 84 buku tulis dan 35 bolpoin untuk hadiah lomba anak-anak. Setiap bungkus hadiah untuk pemenang lomba mempunyai isi yang sama banyak. bungkus hadiah yang dapat dibuat adalah…",
-        "a": "7",
-        "b": "10",
-        "c": "15",
-        "d": "5",
+        "soal": "Hasil dari 4,21 – 15% - \\[\\frac{5}{20}\\]",
+        "a": "3,81",
+        "b": "38,1",
+        "c": "31,8",
+        "d": "3,18",
         "benar": "a",
-        "nih": "7"	
+        "nih": "3,81"	
         
     }
     
     
-    
-    
-
-   	 
+ 	 
 
 }, {
     "soal8": {
-        "soal": "Bu rina dan bu siti adalah dua pedagang ketupat yang membeli beras toko yang sama untuk membuat ketupat. Setiap 6 hari bu rina ke toko untuk membeli beras, sedangkan bu siti setiap 8 hari ke toko untuk membeli beras. Jika hari ini bu rina dan bu siti ke toko beras bersamaan, mereka akan ke toko beras bersamaan setelah…",
-        "a": "20 hari",
-        "b": "24 hari",
-        "c": "34 hari",
-        "d": "10 hari",
-        "benar": "b",
-        "nih": "24 hari"
+        "soal": "Bu rina memiliki \\[7\\frac{1}{2} kg\\] daging kerbau. Ia memberikan \\[\\frac{4}{5} kg\\] kepada anton dan \\[2\\frac{1}{2} kg\\] kepada tina. berapa sisa daging kerbau bu rina?",
+        "a": "\\[4\\frac{5}{20}\\]",
+        "b": "\\[\\frac{3}{20}\\]",
+        "c": "\\[3\\frac{4}{20}\\]",
+        "d": "\\[4\\frac{9}{20}\\]",
+        "benar": "d",
+        "nih": "\\[4\\frac{9}{20}\\]"	
         
         
-
-
-
-
+        
+        
+        
     }
   	
 
 }, {
     "soal9": {
-        "soal": "Nando les panting 3 hari sekali. Zaki les panting 4 hari sekali. Jika hari ini mereka berangkat bersama-sama, mereka akan berangkat les bersamaan setelah…",
-        "a": "12 hari",
-        "b": "15 hari",
-        "c": "16 hari",
-        "d": "17 hari",
+        "soal": "Rima belajar bahasa inggris \\[1\\frac{2}{6}\\] jam, dilanjutkan belajar bahasa indonesia 1,3  jam rima telah belajar selama…",
+        "a": "2,7 jam",
+        "b": "2,5 jam",
+        "c": "2,4 jam",
+        "d": "2,1 jam",
         "benar": "a",
-        "nih": "12 hari"
+        "nih": "2,7 jam"
 
     }
     
     
-    
-    
-
-
-
-
-
 
 },{
     "soal10": {
-        "soal": "Naaaando les panting 3 hari sekali. Zaki les panting 4 hari sekali. Jika hari ini mereka berangkat bersama-sama, mereka akan berangkat les bersamaan setelah…",
-        "a": "12 hari",
-        "b": "15 hari",
-        "c": "16 hari",
-        "d": "17 hari",
+        "soal": "Nilai dari \\[\\frac{2}{4} \\times \\] \\[32\\]% \\[\\times 2\\frac{3}{5}\\]=⋯",
+        "a": "\\[\\frac{52}{125}\\]",
+        "b": "\\[\\frac{125}{52}\\]",
+        "c": "\\[\\frac{25}{100}\\]",
+        "d": "\\[\\frac{75}{125}\\]",
         "benar": "a",
-        "nih": "12 hari"
+        "nih": "\\[\\frac{52}{125}\\]"
 
     }
 
 },{
     "soal11": {
-        "soal": "Naaaando ldwdes panting 3 hari sekali. Zaki les panting 4 hari sekali. Jika hari ini mereka berangkat bersama-sama, mereka akan berangkat les bersamaan setelah…",
-        "a": "12 hari",
-        "b": "15 hari",
-        "c": "16 hari",
-        "d": "17 hari",
-        "benar": "a",
-        "nih": "12 hari"
+        "soal": "Nilai dari \\[5\\frac{2}{6} : 0,7 : \\] \\[125\\]% =⋯",
+        "a": "\\[\\frac{123}{21}\\]",
+        "b": "\\[\\frac{21}{128}\\]",
+        "c": "\\[\\frac{128}{21}\\]",
+        "d": "\\[\\frac{7}{21}\\]",
+        "benar": "c",
+        "nih": "\\[\\frac{128}{21}\\]"
 
     }
 
-}
-]
+},{
+
+    "soal12": {
+        "soal": "Panjang kain sasirangan surti \\[2\\frac{3}{4}\\] kali panjang kain mita. Jika kain ,mita 2,2 m, panjang kain surti…",
+        "a": "7 m",
+        "b": "6,05 m",
+        "c": "6,20 m",
+        "d": "5 m",
+        "benar": "b",
+        "nih": "6,05 m"
+    }
+
+
+},{
+
+    "soal13": {
+        "soal": "nilai dari \\[4^4 \\times 3^5 : 12^3\\] =... ",
+        "a": "20",
+        "b": "30",
+        "c": "36",
+        "d": "46",
+        "benar": "c",
+        "nih": "36"
+    }
+
+},{
+    "soal14": {
+        "soal": "nilai dari \\[3^7 : 3^6 \\times 3^3\\] =... ",
+        "a": "81",
+        "b": "90",
+        "c": "120",
+        "d": "250",
+        "benar": "a",
+        "nih": "81"
+    } 
+
+},{
+    "soal15": {
+        "soal": "Mira memiliki 80 buah kasturi, 120 buah langsat, dan 150 buah ramania. Ia ingin membagikan buah kepada teman-temannya dengan jumlah sama banyak.orang yang akan mendapatkan buah sebanyak...",
+        "a": "15 orang",
+        "b": "20 orang",
+        "c": "5 orang",
+        "d": "10 orang",
+        "benar": "d",
+        "nih": "10 orang"
+    } 
+
+},{
+    "soal16": {
+        "soal": "Pak amat memancing haruan di rawa 4 hari sekali. Pak garbus memancing haruan di rawa 6 hari sekali dan pak udin memancing haruan di rawa 12 hari sekali. Pada hari sabtu mereka memancing haruan di rawa bersama-sama. Setelah berapa harikah mereka dapat memancing bersama sama lagi?",
+        "a": "12 hari",
+        "b": "14 hari",
+        "c": "15 hari",
+        "d": "20 hari",
+        "benar": "a",
+        "nih": "12 hari"
+    } 
+
+
+},{
+
+    "soal17": {
+        "soal": "FPB dari 250, 270, dan 330 adalah…",
+        "a": "10",
+        "b": "15",
+        "c": "25",
+        "d": "5",
+        "benar": "a",
+        "nih": "10"
+    } 
+
+},{
+
+    "soal18": {
+        "soal": "KPK dari 16, 18 dan 26 adalah…",
+        "a": "1823",
+        "b": "1872",
+        "c": "1098",
+        "d": "1221",
+        "benar": "b",
+        "nih": "1872"
+    }   
+},{
+
+    "soal19": {
+        "soal": "Pak joni memotong kayu ulin menjadi 4 bagian sama panjang. Jika panjang setiap potong kayu ulin 0,50 meter, panjang kayu ulin tersebut adalah…",
+        "a": "2,5 meter",
+        "b": "3 meter",
+        "c": "2 meter",
+        "d": "4 meter",
+        "benar": "c",
+        "nih": "2 meter"
+    }   
+
+}]

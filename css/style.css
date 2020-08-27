@@ -1,4 +1,24 @@
+.gakbisa{
 
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(152, 29, 158, 0.5);
+  position: fixed;
+  text-align: center;
+}
+
+.gakbisa p{
+  display: inline-block;
+  font-size: 90px;
+  margin-top: 240px;
+  color: white;
+}
+    
+    
     .divscratch{
       overflow-y: hidden;
       height: 337px;
@@ -964,5 +984,25 @@ padding-bottom: 20px;
  .tombol2{
 
  }
+
+ .gakbisa{
+
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(152, 29, 158, 0.5);
+  position: fixed;
+  text-align: center;
+}
+
+.gakbisa p{
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 200px;
+  color: white;
+}
 }
 

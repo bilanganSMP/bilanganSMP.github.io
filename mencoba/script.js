@@ -57,12 +57,16 @@ function createTask(nama,kelas){
 // });
 
 // }
-var carikelas = document.getElementById("kelas").value
-carikelas = "";
+
+
+
+var namatugas;
+
 function readlah(){
-var task= firebase.database().ref("nilaisubbab8/");
-task.orderByChild("kelas").equalTo(carikelas).on("child_added",function(data){
-    var taskvalue = data.val();
+var task= firebase.database().ref(namatugas);
+task.orderByChild("nama").on("child_added",function(data){
+  taskvalue = data.val(); 
+  if(carikelas==taskvalue.kelas){
     document.getElementById("namaTR").innerHTML+=`
     <tr class="trnilai">
     <td class="trnilai">${taskvalue.sekolah}</td>
@@ -70,10 +74,10 @@ task.orderByChild("kelas").equalTo(carikelas).on("child_added",function(data){
     <td class="trnilai">${taskvalue.kelas}</td>
     <td class="trnilai">${taskvalue.nilai}</td>
     <td class="trnilai">${taskvalue.waktu}</td>
-    
+    <td class="trnilai"><button class="tombolsoal" onclick="mauhapus(${taskvalue.id})">delete</button></td>
     </tr>
     `
-    
+    console.log(taskvalue.nama);}
 });
 
 }
@@ -81,6 +85,41 @@ task.orderByChild("kelas").equalTo(carikelas).on("child_added",function(data){
 function cari(){
   document.getElementById("namaTR").innerHTML="";
   carikelas = document.getElementById("kelas").value
+  namatugas = document.getElementById("tugas").value
   console.log(carikelas)
   readlah();
+}
+
+function mauhapus(id){
+  var yakin = confirm("Apakah kamu yakin menghapus data?");
+
+        if (yakin) {
+            deletetask(id);
+        } else {
+            
+        }
+}
+
+function deletetask(id){
+  
+  var task= firebase.database().ref(namatugas+id);
+  task.remove();
+  reset();
+}
+
+function reset(){
+document.getElementById("namaTR").innerHTML=""; 
+readlah(); 
+}
+
+function unduh(){
+
+  var data_type = 'data:application/vnd.ms-excel';
+ var table_div = document.getElementById('don');
+ var table_html = table_div.outerHTML.replace(/ /g, '%20');
+
+var a = document.createElement('a');
+ a.href = data_type + ', ' + table_html;
+ a.download = 'exported_table_' + Math.floor((Math.random() * 9999999) + 1000000) + '.xls';
+ a.click();
 }

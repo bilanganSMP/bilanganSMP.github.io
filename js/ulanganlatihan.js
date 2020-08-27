@@ -255,7 +255,7 @@ console.log(namavariabel);
             let sarat = 0;
 
             for (let t = 0; t < jwbs.length; t++) {
-                if ((soal_navnya[t].className.indexOf('sudah') == 20)) {
+                if ((soal_navnya[t].className.indexOf('sudah') == 10)) {
                     sarat = sarat + 1;
                 }
             }
@@ -281,7 +281,7 @@ console.log(namavariabel);
                             if (pils_soal[j].checked == true) {
                                 // cek jawaban dengan kunci
                                 if (pils_soal[j].value == jwbs[i]) {
-                                    hasilakhir = hasilakhir + 10;
+                                    hasilakhir = hasilakhir + 5;
                                     benarr = benarr + 1;
                                 } else {
                                     hasilakhir = hasilakhir;
@@ -293,7 +293,7 @@ console.log(namavariabel);
                     }
 
                 }
-               
+                
                 if (hasilakhir<75){
                     document.getElementById("emot1").src = "../logo/sad.png";
                     document.getElementById("remedial").classList.add("tombolsoal");
@@ -371,18 +371,20 @@ var sekolahvariabel = "kosong";
   firebase.initializeApp(firebaseConfig);
 
 let kirim = document.getElementById('selesai');
-
-  var d = new Date();
+var d = new Date();
   var t = d.getTime();
   var counter = t;
+
+  
   var Tanggal = new Date();
   var Hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
   var Bulan =["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
   var hariini = Hari[Tanggal.getDay()];
-  var tanggalangka = Tanggal.getDay();
+  var tanggalangka = Tanggal.getDate();
   var bulanini = Bulan[Tanggal.getMonth()];
   var tahun = Tanggal.getFullYear();
   var jam = Tanggal.getHours()+":"+Tanggal.getMinutes()+":"+Tanggal.getSeconds()
+
   // kirim.addEventListener('click', function (e) {
     
 //     e.preventDefault();
@@ -404,23 +406,12 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilaisubbab8/"+counter);
+    let db= firebase.database().ref("ulangan/"+counter);
     db.set(task);
 
 }
 
-function readlah(){
-var task= firebase.database().ref("nilai/");
-task.on("child_added",function(data){
-    var taskvalue = data.val();
-    document.getElementById("namaTR").innerHTML+=`
-    <p> ${taskvalue.nama}</p><br>
-    <p> ${taskvalue.kelas}</p>
-    `
-    
-});
 
-}
 
 function mulaiaja(){
     var a = document.getElementById("tengah");
@@ -440,3 +431,24 @@ if(kelasvariabel=="0"||namavariabel==""||sekolahvariabel==""){
     MathJax.typeset()
 }
 }
+
+
+
+
+  function readlah(){
+    var takut= firebase.database().ref("kuncikuis/");
+    let tmp = document.querySelector('body');
+    takut.on("child_added",function(data){
+        var takutvalue = data.val();
+        if ((takutvalue.kuis=="ulangan")&&(takutvalue.nilai==1)){
+
+            tmp.innerHTML+=`<div class="gakbisa"> <p>ULANGAN TIDAK DAPAT DIBUKA</p></div>
+            
+            `
+        }else{
+
+        }
+        
+    });
+    
+    }
