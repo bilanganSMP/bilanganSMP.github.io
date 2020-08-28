@@ -1004,5 +1004,11 @@ padding-bottom: 20px;
   margin-top: 200px;
   color: white;
 }
+
+.bgg{
+  width: 100%;
+  display: inline-block;
+  
+}
 }
 
