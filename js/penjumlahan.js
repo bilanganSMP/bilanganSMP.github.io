@@ -36,3 +36,23 @@ function buat() {
 
   
 }
+
+function secontoh(){
+    var a = document.getElementById("contoh1");
+    var b = document.getElementById("contoh2");
+
+    a.className = a.className.replace("uklat","hilang");
+    b.className = b.className.replace("hilang","uklat");
+
+}
+
+function sebcontoh(){
+
+    var a = document.getElementById("contoh1");
+    var b = document.getElementById("contoh2");
+
+    b.className = b.className.replace("uklat","hilang");
+    a.className = a.className.replace("hilang","uklat");
+
+
+}

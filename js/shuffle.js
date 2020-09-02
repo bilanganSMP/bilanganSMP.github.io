@@ -14,6 +14,15 @@ function a() {
   
 }
 
+function bukatanya(){
+  var a = document.getElementById("kuncitanya")
+  var b =document.getElementById("tanya")
+  
+  a.classList.add("hilang")
+ 
+  b.classList.remove("hilang")
+}
+
 var x, i, j, l, ll, selElmnt, a, b, c;
 /* Look for any elements with the class "custom-select": */
 x = document.getElementsByClassName("custom-select");

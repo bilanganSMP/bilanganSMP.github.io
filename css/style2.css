@@ -1,4 +1,25 @@
 
+    .gakbisa1{
+
+      position: absolute;
+      z-index: 5;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(152, 29, 158, 0.5);
+      position: fixed;
+      text-align: center;
+      height: 104%;
+    }
+    
+    .gakbisa1 p{
+      display: inline-block;
+      font-size: 18px;
+      margin-top: 240px;
+      color: white;
+    }
+    
     .row.content {height: 550px}
     
     
