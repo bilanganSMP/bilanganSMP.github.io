@@ -436,12 +436,13 @@ if(kelasvariabel=="0"||namavariabel==""||sekolahvariabel==""){
 
 
   function readlah(){
+      
     var takut= firebase.database().ref("kuncikuis/");
     let tmp = document.querySelector('body');
     takut.on("child_added",function(data){
         var takutvalue = data.val();
         if ((takutvalue.kuis=="ulangan")&&(takutvalue.nilai==1)){
-
+            console.log("cc")
             tmp.innerHTML+=`<div class="gakbisa"> <p>ULANGAN TIDAK DAPAT DIBUKA</p></div>
             
             `

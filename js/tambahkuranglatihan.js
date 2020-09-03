@@ -404,23 +404,29 @@ function createTask(namavariabel,kelasvariabel,hasilakhir){
         nilai:hasilakhir,
         waktu:jam+" "+hariini+", "+tanggalangka+" "+bulanini+" "+tahun
     }
-    let db= firebase.database().ref("nilaisubbab5remedial/"+counter);
+    let db= firebase.database().ref("nilaisubbab5/"+counter);
     db.set(task);
 
 }
 
 function readlah(){
-var task= firebase.database().ref("nilai/");
-task.on("child_added",function(data){
-    var taskvalue = data.val();
-    document.getElementById("namaTR").innerHTML+=`
-    <p> ${taskvalue.nama}</p><br>
-    <p> ${taskvalue.kelas}</p>
-    `
-    
-});
+      
+    var takut= firebase.database().ref("kuncikuis/");
+    let tmp = document.querySelector('body');
+    takut.on("child_added",function(data){
+        var takutvalue = data.val();
+        if ((takutvalue.kuis=="kuis5")&&(takutvalue.nilai==1)){
+            console.log("cc")
+            tmp.innerHTML+=`<div class="gakbisa"> <p>ULANGAN TIDAK DAPAT DIBUKA</p></div>
+            
+            `
+        }else{
 
-}
+        }
+        
+    });
+    
+    }
 
 function mulaiaja(){
     var a = document.getElementById("tengah");

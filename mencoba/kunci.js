@@ -20,17 +20,13 @@ var firebaseConfig = {
         <tr class="trnilai">
         <td class="trnilai">${taskvalue.kuis}</td>
         <td class="trnilai">
-        <form action="#">
-        <p>
-          <input checked type="radio" id="buka" name="radio-group">
-          <label for="buka">Buka</label>
-        </p>
-        <p>
-          <input type="radio" id="kunci" name="radio-group" onclick="update('${taskvalue.kuis}','${taskvalue.nilai}')">
-          <label for="kunci">Kunci</label>
-        </p>
+       
         
-      </form></td>
+          <input type="button" style="width: 100%;" class="btn btn-danger" value="kunci" onclick="update('${taskvalue.kuis}','${taskvalue.nilai}')">
+          
+      
+        
+      </td>
         </tr>
         `
         }else{
@@ -38,17 +34,13 @@ var firebaseConfig = {
         <tr class="trnilai">
         <td class="trnilai">${taskvalue.kuis}</td>
         <td class="trnilai">
-        <form action="#">
-        <p>
-          <input type="radio" id="buka" name="radio-group" onclick="update('${taskvalue.kuis}','${taskvalue.nilai}')">
-          <label for="buka">Buka</label>
-        </p>
-        <p>
-          <input checked type="radio" id="kunci" name="radio-group">
-          <label for="kunci">Kunci</label>
-        </p>
         
-      </form></td>
+        
+        <input type="button"  style="width: 100%;" class="btn btn-success" value="buka" onclick="update('${taskvalue.kuis}','${taskvalue.nilai}')">
+        
+       
+        
+      </td>
         </tr>
         `
 
@@ -69,7 +61,7 @@ var taskupdate = {
     nilai: nilaibaru
 }
 
-let db = firebase.database().ref("kuncikuis/"+"ulangan")
+let db = firebase.database().ref("kuncikuis/"+ kuis)
 db.set(taskupdate);
 window.location="kunci.html"
 }
