@@ -1,3 +1,5 @@
+ 
+ var simpanan=["gg","huh"];
  // Your web app's Firebase configuration
  var firebaseConfig = {
     apiKey: "AIzaSyCPusVlafmDrm2ygaGchmOtOtEFTdOrYiM",
@@ -62,7 +64,8 @@ function createTask(nama,kelas){
 
 var namatugas;
 
-function readlah(){
+function readlah(){ 
+  var simpanid=[];
 var task= firebase.database().ref(namatugas);
 task.orderByChild("nama").on("child_added",function(data){
   taskvalue = data.val(); 
@@ -77,9 +80,37 @@ task.orderByChild("nama").on("child_added",function(data){
     <td class="trnilai"><button class="tombolsoal" onclick="mauhapus(${taskvalue.id})">delete</button></td>
     </tr>
     `
-    console.log(taskvalue.nama);}
+    simpanid.push(taskvalue.id)
+    }
+    
+
+  
+    
+    
 });
 
+simpanan = simpanid;
+console.log(simpanan);
+}
+
+
+function hapussemua(){
+  console.log(simpanan);
+  var yakin = confirm("Apakah kamu yakin menghapus data?");
+
+  if (yakin) {
+      deletetasksemua(simpanan);
+  } else {
+      
+  }
+}
+
+function deletetasksemua(simpanan){
+  console.log(simpanan);
+  for (let i = 0; i< simpanan.length; i++){
+  var task= firebase.database().ref(namatugas+simpanan[i]);
+  task.remove();}
+  reset();
 }
 
 function cari(){
