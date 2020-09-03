@@ -416,7 +416,7 @@ function readlah(){
         var takutvalue = data.val();
         if ((takutvalue.kuis=="kuis7")&&(takutvalue.nilai==1)){
             console.log("cc")
-            tmp.innerHTML+=`<div class="gakbisa"> <p>ULANGAN TIDAK DAPAT DIBUKA</p></div>
+            tmp.innerHTML+=`<div class="gakbisa"> <p>KUIS TIDAK DAPAT DIBUKA</p></div>
             
             `
         }else{
