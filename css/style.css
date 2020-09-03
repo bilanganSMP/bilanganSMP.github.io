@@ -564,6 +564,19 @@ LEVEL 3. SETTINGS
   height: 40px;
 }
 
+.tombolsoald{
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #423d49;
+  font-family: 'Saira Condensed', sans-serif;
+  height: 40px;
+}
+
 .tombolsoal1{
   border: none;
   border-radius: 3px;

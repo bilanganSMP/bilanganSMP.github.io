@@ -10,9 +10,13 @@
     <title>Document</title>
 </head>
 
-<body class="nilaisiswa" onload="readlah()" style="text-align: -moz-center;">
+<body class="nilaisiswa" onload="readlah()" style="text-align: -moz-center; background-color: cornsilk;">
   <div class="bgg">
-  tugas  =<div class="custom-select" style="width:150px; display: inline-block;">
+    <center style="font-size: 40px;">
+      Nilai Siswa
+    </center>
+    <div style="border: blueviolet solid 2px; font-size: 20px; padding: 10px;">
+  <div class="custom-select" style="width:150px; display: inline-block;">
     <select id="tugas">
       <option value="0">tugas:</option>
       <option value="nilai/">tugas1</option>
@@ -26,7 +30,7 @@
       <option value="ulangan/">ulangan</option>
     </select>
   </div>
-  Kelas  =<div class="custom-select" style="width:150px; display: inline-block;">
+  <div class="custom-select" style="width:150px; display: inline-block;">
     <select id="kelas">
       <option value="0">Kelas:</option>
       <option value="7A">7A</option>
@@ -40,8 +44,8 @@
       <option value="7I">7I</option>
     </select>
   </div>
-  <button class="tombolsoal" id="cek" onclick="cari()">Cari</button>
-  <button class="tombolsoal" id="btnExport" onclick="unduh()">Download Nilai</button>
+  <button class="tombolsoal" style="width: 100px !important;" id="cek" onclick="cari()">Cari</button>
+  <button class="tombolsoal" id="btnExport" onclick="unduh()">Download Nilai</button></div>
     <div style="width: 80%; padding-top: 20px;">
       
         <table id="don" class="table tabelnilai">
