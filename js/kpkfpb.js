@@ -53,7 +53,7 @@ function cekjawabanfpb(){
     if(a.value==""){
         window.alert("anda belum mengisikan jawaban")
     }
-    else if(a.value==1200){
+    else if(a.value==10){
         b.classList.remove("hilang")
         b.classList.add("kolompembahasan")
         b.innerHTML=`jawaban kamu benar`
@@ -120,7 +120,7 @@ function cekjawaban1fpb(){
     if(a.value==""){
         window.alert("anda belum mengisikan jawaban")
     }
-    else if(a.value==28600){
+    else if(a.value==50){
         b.classList.remove("hilang")
         b.classList.add("kolompembahasan")
         b.innerHTML=`jawaban kamu benar`
@@ -173,10 +173,10 @@ function cekjawaban2(){
         faktorisasi prima dari \\[10 = 2 \\times 5\\]<br>
         faktorisasi prima dari \\[15 = 3 \\times 5\\]<br><br>
         langkah 2:<br>
-        FPB ditentukan dengan mencari faktor-faktor prima yang sama dari setiap bilangan, lalu memilih faktor yang pangkatnya terendah dan mengalikannya.<br>
+        KPK ditentukan dengan mengalikan semua faktor prima dari setiap bilangan, jika ada faktor prima yang sama, dipilih yang pangkatnya tertinggi.<br>
         
-        FPB = \\[5\\] 
-        ada 5 anak yang mendapatkan buah dari ibu
+        KPK = \\[2 \\times 3  \\times 5 = 30\\] 
+        
         `
     }
     MathJax.typeset()
@@ -202,9 +202,9 @@ function cekjawaban2fpb(){
         faktorisasi prima dari<br> \\[50 = 2 \\times 5 \\times 5 = 2 \\times 5^2\\]<br>
         faktorisasi prima dari<br> \\[45 = 3 \\times 3 \\times 5 = 3^2 \\times 5\\]<br><br>
         langkah 2:<br>
-        KPK ditentukan dengan mengalikan semua faktor prima dari setiap bilangan, jika ada faktor prima yang sama, dipilih yang pangkatnya tertinggi.<br>
+        FPB ditentukan dengan mencari faktor-faktor prima yang sama dari setiap bilangan, lalu memilih faktor yang pangkatnya terendah dan mengalikannya.<br>
         
-        KPK = \\[2 \\times 3 \\times 5 = 30\\] 
+        FPB = \\[5\\] 
         `
     }
     MathJax.typeset()
