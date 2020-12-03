@@ -308,7 +308,7 @@ console.log(namavariabel);
 				kitahasil.className = kitahasil.className.replace('contentt', 'hilang');
 				kitahasil1.className = kitahasil1.className.replace('contentt', 'hilang');
 				muncul.className = muncul.className.replace('hilang', 'contentt');
-                document.getElementById("skor").innerHTML = "Skor Anda Adalah : "+hasilakhir+"";
+                document.getElementById("skor").innerHTML = "Nama : "+namavariabel+"<br>Kelas : "+kelasvariabel+"<br>Sekolah : "+sekolahvariabel+"<br>Skor Anda Adalah : "+hasilakhir+"";
                 createTask(namavariabel,kelasvariabel,hasilakhir);
                 let skornya = document.querySelector('.skor');
                 skornya.innerText = hasilakhir;

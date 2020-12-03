@@ -146,7 +146,7 @@ function cek(){
     if(b.checked){
      document.getElementById("penjelasan").innerHTML = "jawaban kamu benar.<br>Penjelasan : bilangan diatas bukan bilangan cacah melainkan bilangan bulat karena diantara bilangan diatas ada bilangan negatif sedangkan bilangan cacah tidak memuat bilangan negatif.";
     }else{
-        document.getElementById("penjelasan").innerHTML = "jawaban kamu salah.<br>Penjelasan : bilangan diatas bukan bilangan cacah melainkan bilangan bulat karena diantara bilangan diatas ada bilangan negatif bilangan cacah tidak memuat bilangan negatif.";       
+        document.getElementById("penjelasan").innerHTML = "jawaban kamu salah.<br>Penjelasan : bilangan diatas bukan bilangan cacah melainkan bilangan bulat karena diantara bilangan diatas ada bilangan negatif sedangkan bilangan cacah tidak memuat bilangan negatif.";       
     }
 
 }

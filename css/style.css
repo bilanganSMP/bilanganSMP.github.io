@@ -204,6 +204,11 @@
   padding: 10px;
 }
 
+.copyright{
+  color: white;
+  font-family: british bold;
+  font-size: 16px;
+}
 .benar {
   text-align: center;
   border: solid 2px green !important;
@@ -217,9 +222,9 @@ text-align: center;
 .biasa{
   text-align: center;
   border: none;
-  border-bottom: 3px solid blueviolet;
+  border-bottom: 3px solid white;
   color: black;
-  background-color: none;
+  background-color: #916dd5
   
 }
 
@@ -719,7 +724,7 @@ border-bottom: none;
   color: black;
 }
 .bawahkuis{
-  padding-left: 305px;
+  padding-left: 235px;
      border-left: violet solid 5px;
      border-bottom: violet solid 5px;
      width: 697px;
