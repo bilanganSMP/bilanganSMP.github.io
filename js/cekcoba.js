@@ -15,7 +15,8 @@ function check(){
     var x = document.getElementById("jawab");
     var y = document.getElementById("bujur");
     var z = document.getElementById("kadabujur");
-    if(document.getElementById("jawab").value==jsonDatabil[1].jawaban){
+    
+    else if(document.getElementById("jawab").value==jsonDatabil[1].jawaban){
      x.className = x.className.replace("biasa","benar");
      y.className = y.className.replace("bilahilang","bilabetul");
     } else {
@@ -141,14 +142,16 @@ function cekjawabanpengurangan(){
 function cek(){
     var a = document.getElementById("j1");
     var b = document.getElementById("j2");
-    
+    if(a.checked== false && b.checked==false){
 
-    if(b.checked){
-     document.getElementById("penjelasan").innerHTML = "jawaban kamu benar.<br>Penjelasan : bilangan diatas bukan bilangan cacah melainkan bilangan bulat karena diantara bilangan diatas ada bilangan negatif sedangkan bilangan cacah tidak memuat bilangan negatif.";
+    alert("jawaban masih kosong");
     }else{
-        document.getElementById("penjelasan").innerHTML = "jawaban kamu salah.<br>Penjelasan : bilangan diatas bukan bilangan cacah melainkan bilangan bulat karena diantara bilangan diatas ada bilangan negatif sedangkan bilangan cacah tidak memuat bilangan negatif.";       
+        if(b.checked){
+            document.getElementById("penjelasan").innerHTML = "jawaban kamu benar.<br>Penjelasan : bilangan diatas bukan bilangan cacah melainkan bilangan bulat karena diantara bilangan diatas ada bilangan negatif sedangkan bilangan cacah tidak memuat bilangan negatif.";
+           }else{
+               document.getElementById("penjelasan").innerHTML = "jawaban kamu salah.<br>Penjelasan : bilangan diatas bukan bilangan cacah melainkan bilangan bulat karena diantara bilangan diatas ada bilangan negatif sedangkan bilangan cacah tidak memuat bilangan negatif.";       
+           }
     }
-
 }
 
 function cekkk(){
