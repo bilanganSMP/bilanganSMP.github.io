@@ -15,12 +15,11 @@ function check(){
     var x = document.getElementById("jawab");
     var y = document.getElementById("bujur");
     var z = document.getElementById("kadabujur");
+    if(document.getElementById("jawab").value==jsonDatabil[1].jawaban){
     
-    else if(document.getElementById("jawab").value==jsonDatabil[1].jawaban){
-     x.className = x.className.replace("biasa","benar");
      y.className = y.className.replace("bilahilang","bilabetul");
     } else {
-        x.className = x.className.replace("biasa","salah");
+       
         z.className = z.className.replace("bilahilang","bilasalah");
     }
 }

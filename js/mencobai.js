@@ -76,6 +76,12 @@ function shuffle(jsonDatabil) {
   "bil1" : "-3",
   "bil2" : "7",
   "jawaban" : "<"
+},
+
+{
+  "bil1" : "100",
+  "bil2" : "20",
+  "jawaban" : ">"
 }
 ]
 
