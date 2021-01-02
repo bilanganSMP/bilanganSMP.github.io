@@ -69,13 +69,11 @@ mjx-container {
 }
 
 .sudah {
-    background-color: rgb(149, 59, 206);
+    background-color: rgb(211, 177, 233);
     border: 1px solid;
 }
 
-.ragu {
-    background-color: rgb(255, 255, 52) !important;
-}
+
 
 .fontbesar {
     font-size: 17px;
